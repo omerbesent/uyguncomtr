@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="birSifirUcuzaUc.WebUI.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <title>Color life Admin Panel | Dashboard</title>
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cuprum" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fancybox.css" media="screen" />
+    <link rel="stylesheet" href="css/jquery-ui-1.8.16.custom.css" media="screen" />
+    <link rel="stylesheet" href="css/fullcalendar.css" media="screen" />
+    <link rel="stylesheet" href="lib/elfinder/css/elfinder.css" media="screen" />
+    <link rel="stylesheet" href="lib/editor/jquery.wysiwyg.css" media="screen" />
+    <link rel="stylesheet" href="lib/editor/default.css" media="screen" />
+    <link rel="stylesheet" href="lib/player/css/style.css">
+    <link rel="stylesheet" href="css/tipTip.css" media="screen" />
+    <link rel="stylesheet" href="css/chosen.css" media="screen" />
+    <link rel="stylesheet" href="css/colorpicker.css" type="text/css" />
+    <link rel="stylesheet" href="css/tables.css" media="screen" />
+    <link rel="stylesheet" href="css/jquery.jgrowl.css" media="screen" />
+
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="lib/jquery-ui-1.8.16.custom.min.js"></script>
+
+    <script type="text/javascript" src="lib/ddaccordion.js"></script>
+    <script type="text/javascript" src="lib/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.flot.pie.js"></script>
+    <script type="text/javascript" src="lib/jquery.flot.orderBars.js"></script>
+    <script type="text/javascript" src="lib/jquery.flot.resize.js"></script>
+    <script type="text/javascript" src="lib/fancybox/fancybox.js"></script>
+    <script type="text/javascript" src="lib/fullcalendar.min.js"></script>
+    <script src="lib/elfinder/js/elfinder.min.js" charset="utf-8"></script>
+    <script src="lib/editor/jquery.wysiwyg.js" charset="utf-8"></script>
+    <script src="lib/editor/wysiwyg.image.js" charset="utf-8"></script>
+    <script src="lib/editor/default.js" charset="utf-8"></script>
+    <script src="lib/editor/wysiwyg.link.js" charset="utf-8"></script>
+    <script src="lib/editor/wysiwyg.table.js" charset="utf-8"></script>
+    <script type="text/javascript" src="lib/player/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="lib/player/ttw-video-player-min.js"></script>
+    <script src="lib/jquery.tipTip.minified.js"></script>
+    <script src="lib/forms.js"></script>
+    <script src="lib/chosen.jquery.min.js"></script>
+    <script src="lib/autoresize.jquery.min.js"></script>
+    <script type="text/javascript" src="lib/colorpicker.js"></script>
+    <script type="text/javascript" src="lib/validation.js"></script>
+    <script src="lib/jquery.dataTables.min.js"></script>
+    <script src="lib/jquery.jgrowl_minimized.js"></script>
+    <script src="lib/jquery.alerts.js" type="text/javascript"></script>
+    <script src="lib/slidernav-min.js"></script>
+    <script src="lib/formToWizard.js"></script>
+    <script>$(document).ready(function () { $("#SignupForm").formToWizard({ submitButton: 'SaveAccount' }) });</script>
+    <%--<script src="../Scripts/jquery-3.3.1.min.js"></script>--%>
+
+    <script type="text/javascript" src="lib/functions.js"></script>
+  <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  
+ <header>
+	  <div class="centered-head">
+      <!-- Logo -->
+	  <h1><a href="/dashboard.html" class="logo">Color life Admin Panel</a></h1>
+      <!-- Logo end -->
+      
+      <!-- Navigation -->
+      <nav>             
+        <ul>
+            <li id="login">
+                <span id="login-trigger">
+                 <span id="login-triggers">
+ 					<span id="user-panel-check"></span>
+  					<span id="user-panel-title">My Account</span>
+                  </span>
+                </span>
+                <div id="login-content">
+                  <ul>
+                  <li><a href="#"><img src="images/setting.png" alt=""> <span>Settings</span></a></li>
+                  <li><a href="#"><img src="images/help.png" alt=""><span>Help</span></a></li>
+                  <li><a href="/index.html"><img src="images/logout.png" alt=""><span>Log Out</span></a></li>
+                  </ul>
+               </div>                     
+            </li> 
+        </ul>
+      </nav>  
+      
+      <div class="account-name"><p><span class="welcome">Welcome,</span> <strong>John Doe</strong></p><div class="account-separator"></div></div>
+        <div class="account-name"><p>Language:</p>
+       	<ul class="language">
+        	<li><a href="#" class="ukraine">ukraine</a></li>
+            <li class="language-active"><a href="#" class="usa">usa</a></li>
+            <li><a href="#" class="europe">europe</a></li>
+        </ul>
+        <div class="account-separator"></div></div>
+      <!-- Navigation end-->
+     
+       </div>
+ </header>
+ 
+  
+  <section id="middle">
+  	<div id="container-main">
+		<div id="container">
+
+       
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+            </div><!-- #container-->
+
+		<aside id="sideLeft">
+			 <span class="categories">Categories</span>
+   <ul class="menu">
+		<li>
+			<a href="#"><span class="four-prong icon">General</span><span class="num">5</span></a>
+			<ul class="acitem">
+				<li><a href="/Admin/articleList.aspx"><span class="dashboard icon">Makale Listesi</span></a></li>
+				<li><a href="/Admin/addArticle.aspx"><span class="charts icon">Makale Ekle/Güncelle</span></a></li>
+          <%--      <li><a href="/gallery.html"><span class="gallery-pic icon">Image Gallery</span></a></li>
+                <li><a href="/calendar.html"><span class="cal icon">Calendar</span></a></li>
+                <li><a href="/messages.html"><span class="conversations icon">Page Messages</span></a></li>--%>
+			</ul>
+		</li>
+		<%--<li>
+			<a href="#"><span class="four-prong icon">Styling</span><span class="num">5</span></a>
+			<ul class="acitem">
+            	<li><a href="/forms.html"><span class="forms icon">Form Styling</span></a></li>
+       			<li><a href="/table.html"><span class="tables icon">Table Styling</span></a></li>
+                <li><a href="/grid.html"><span class="grids icon">Grid Styling</span></a></li>
+            	<li><a href="/buttons.html"><span class="buttons-icons icon">Buttons & Icons</span></a></li>
+				<li><a href="/typo.html"><span class="typo icon">Typo</span></a></li>	
+			</ul>
+		</li>
+		<li class="expand">
+			<a href="#"><span class="four-prong icon">Plugins</span><span class="num">6</span></a>
+			<ul class="acitem">
+                <li><a href="/widgets.html"><span class="invoice icon">Widgets</span></a></li>
+                <li><a href="/plaeyr.html"><span class="youtube icon">HTML5 Player</span></a></li>
+                <li><a href="/editor.html"><span class="w-editor icon">WYSIWYG Editor</span></a></li>	
+       		    <li><a href="/file.html"><span class="files icon">File Manager</span></a></li>
+                <li><a href="/step.html"><span class="steps icon">Step By Step Wizard</span></a></li>
+                <li><a href="/contact.html"><span class="connection icon">Contact List</span></a></li>
+                <li><a href="/dialogs.html"><span class="forms icon">Dialogs</span></a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#"><span class="four-prong icon">Errore Page</span><span class="num">3</span></a>
+			<ul class="acitem">
+                <li><a href="/404.html"><span class="errors icon">Error 404</span></a></li>
+                <li><a href="/500.html"><span class="errors icon">Error 500</span></a></li>
+                <li><a href="/503.html"><span class="errors icon">Error 503</span></a></li>
+			</ul>
+		</li>--%>
+	</ul>	
+ <%--   <span class="categories">Online chat</span>
+        <ul class="menu-online">
+                <li><a href="/messages.html"><span class="ava-online"><img src="images/ava-2.png" alt=""><span class="num-online">2</span></span><span class="name-online">Franck Mudi</span><span class="online"></span></a></li>
+                <li><a href="/messages.html"><span class="ava-online"><img src="images/ava-1.png" alt=""></span><span class="name-online">Colin Farrell</span><span class="online"></span></a></li>
+                <li><a href="/messages.html"><span class="ava-online"><img src="images/ava-4.png" alt=""><span class="num-online">3</span></span><span class="name-online">Bridget Moynean</span><span class="online"></span></a></li>
+                <li><a href="/messages.html"><span class="ava-online"><img src="images/ava-3.png" alt=""></span><span class="name-online">Al Pacino</span><span class="online"></span></a></li> 
+                <li><a href="/messages.html"><span class="ava-online"><img src="images/ava-5.png" alt=""></span><span class="name-online">Gebriel Makht</span><span class="online"></span></a></li>
+		</ul>	--%>
+        
+	</div>
+		</aside><!-- #sideLeft -->
+        	</div><!-- #container main-->
+
+	
+ 	 <footer>
+            <div class="info-footer">
+                <div id="left">
+                    <p>Copyright © 2018 Bir Sifir Yazılım.</p>
+                </div>
+                <div id="right">
+                    <p><a href="http://www.birsifiryazilim.com" target="_blank">Bir Sifir</a></p>
+                </div>
+            </div>
+        </footer>
+      
+      
+	</section><!-- #middle-->
+
+  
+  <div class="clear"></div>
+</body>
+</html>

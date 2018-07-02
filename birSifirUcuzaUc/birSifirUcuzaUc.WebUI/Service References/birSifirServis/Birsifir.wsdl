@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="aa" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlightSearch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="departure" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="arrival" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departuredate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returndate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="child" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="infant" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="flighttype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onlydirect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlightSearchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FlightSearchResult" type="tns:BirsifirResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BirsifirResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="GidisUcuslari" type="tns:Result" />
+          <s:element minOccurs="0" maxOccurs="1" name="DonusUcuslari" type="tns:Result" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Result">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sessionid" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PassportRequired" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="exchangerate" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="PricedItineraryList" type="tns:ArrayOfPricedItineraryList" />
+          <s:element minOccurs="0" maxOccurs="1" name="DirectionId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProviderId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProviderName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="uu_SessionId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlightSegmentResults" type="tns:ArrayOfFlightSegmentResults" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPricedItineraryList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PricedItineraryList" nillable="true" type="tns:PricedItineraryList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PricedItineraryList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProviderType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SequenceNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginDestinationOptionList" type="tns:ArrayOfOriginDestinationOptionList" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginDestinationCombinationList" type="tns:ArrayOfOriginDestinationCombinationList" />
+          <s:element minOccurs="0" maxOccurs="1" name="ItinTotalFare" type="tns:ItinTotalFare" />
+          <s:element minOccurs="0" maxOccurs="1" name="FareBreakdowns" type="tns:ArrayOfFareBreakdown" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfOriginDestinationOptionList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OriginDestinationOptionList" nillable="true" type="tns:OriginDestinationOptionList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OriginDestinationOptionList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="RefNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DirectionId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ElapsedTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlightSegment" type="tns:ArrayOfFlightSegment" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFlightSegment">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FlightSegment" nillable="true" type="tns:FlightSegment" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FlightSegment">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DepartureDateTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ArrivalDateTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlightNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResBookDesigCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResBookDesigQuantity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DepartureAirport" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ArrivalAirport" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DepartureCityCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ArrivaliCityCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OperatingAirline" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MarketingAirline" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OperatingAirlineName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MarketingAirlineName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Luggage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Equipment" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfOriginDestinationCombinationList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OriginDestinationCombinationList" nillable="true" type="tns:OriginDestinationCombinationList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OriginDestinationCombinationList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ValidatingAirlineCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ForceETicket" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IndexList" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CombinationID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="E_TicketEligibility" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceFeeAmount" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ItinTotalFare">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BaseFare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="MarkupFare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalFare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ServiceFare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="AST" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ATT" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFareBreakdown">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FareBreakdown" nillable="true" type="tns:FareBreakdown" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FareBreakdown">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="PassengerType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PassengerQuantity" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BaseFare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="MarkupFare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalFare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ServiceFare" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketDesignators" type="tns:ArrayOfTicketDesignator" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTicketDesignator">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TicketDesignator" nillable="true" type="tns:TicketDesignator" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TicketDesignator">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TicketDesignatorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketDesignatorExtension" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFlightSegmentResults">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FlightSegmentResults" nillable="true" type="tns:FlightSegmentResults" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FlightSegmentResults">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ProviderId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProviderName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FlightPrice" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ServiceFee" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="FlightTax" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="FlightPriceTotal" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Origin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Destination" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginCityCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DestinationCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DestinationCityCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Luggage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlightItems" type="tns:ArrayOfFlightItems" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFlightItems">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FlightItems" nillable="true" type="tns:FlightItems" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FlightItems">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Provider" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Origin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Destination" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginCityCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DestinationCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DestinationCityCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlightNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DepartureTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ArrivalTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClassCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Seats" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Carrier" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="isPromotionClass" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="FlightPrice" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="FlightTax" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ServiceFee" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="FlightPriceTotal" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="isConnectedPrevSeg" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="CustomField1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CustomField2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CustomField3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CustomField4" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CustomField5" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DomesticFlightPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="yetiskin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cocuk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bebek" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gidisJson" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="donusJson" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DomesticFlightPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DomesticFlightPriceResult" type="tns:ResultDomesticFlightPrice" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResultDomesticFlightPrice">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCode" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDetails" />
+          <s:element minOccurs="0" maxOccurs="1" name="FareResult" type="tns:FareResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FareResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Provider" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="GrandTotalPrice" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ATT" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="AST" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Fares" type="tns:ArrayOfFare" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFare">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Fare" nillable="true" type="tns:Fare" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Fare">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="PassangerType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PassangerCount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BasePrice" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Taxes" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalPrice" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ServicePrice" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="totalfare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="taxprice1" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="taxprice2" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="taxprice3" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CreateTicket3D">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="flighttype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="destination" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="arrival" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sessionid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="aspNetSessionid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passengers" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adultcount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="childcount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="infcount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gidisJson" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="donusJson" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="combinationId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sequenceNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cardname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cardnumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cardmonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cardyear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cardcvv" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="baseprice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="totalprice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bankid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="installment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResultCreateTicked3D">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDetails" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Result" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CreateTicket3DResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateTicket3DResult" type="tns:ResultCreateTicked3D" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TicketInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ticketkey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResultTicketInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketInfoList" type="tns:ArrayOfTicketInfoList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTicketInfoList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TicketInfoList" nillable="true" type="tns:TicketInfoList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TicketInfoList">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="firstname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lastname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="providerid" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="pnr" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="total" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="servicefee" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="providerfee" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="recorddate" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="iscancel" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="canceldate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="billingname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="billingaddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="taxoffice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="taxnum" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="weborpanel" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="fresult" type="tns:Fresult" />
+          <s:element minOccurs="0" maxOccurs="1" name="mergekey" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ticketnumber" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Fresult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="flightlist" type="tns:ArrayOfFlightlist" />
+          <s:element minOccurs="0" maxOccurs="1" name="passengerlist" type="tns:ArrayOfPassengerlist" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFlightlist">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Flightlist" nillable="true" type="tns:Flightlist" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Flightlist">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="direction" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="airline" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="flightno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="flightdatetime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="origin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="arrivaldatetime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="destination" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="classcode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPassengerlist">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Passengerlist" nillable="true" type="tns:Passengerlist" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Passengerlist">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="gender" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="firstname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lastname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="birthdate" />
+          <s:element minOccurs="0" maxOccurs="1" name="passportnumber" />
+          <s:element minOccurs="0" maxOccurs="1" name="passportdate" />
+          <s:element minOccurs="0" maxOccurs="1" name="nationality" />
+          <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="eticketnumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tckimlik" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="basefare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="totalfare" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="taxfare1" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="taxfare2" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="taxfare3" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TicketInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TicketInfoResult" type="tns:ResultTicketInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="BirsifirResult" nillable="true" type="tns:BirsifirResult" />
+      <s:element name="ResultDomesticFlightPrice" nillable="true" type="tns:ResultDomesticFlightPrice" />
+      <s:element name="ResultCreateTicked3D" nillable="true" type="tns:ResultCreateTicked3D" />
+      <s:element name="ResultTicketInfo" nillable="true" type="tns:ResultTicketInfo" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="FlightSearchSoapIn">
+    <wsdl:part name="parameters" element="tns:FlightSearch" />
+  </wsdl:message>
+  <wsdl:message name="FlightSearchSoapOut">
+    <wsdl:part name="parameters" element="tns:FlightSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="DomesticFlightPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:DomesticFlightPrice" />
+  </wsdl:message>
+  <wsdl:message name="DomesticFlightPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:DomesticFlightPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicket3DSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateTicket3D" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicket3DSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateTicket3DResponse" />
+  </wsdl:message>
+  <wsdl:message name="TicketInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:TicketInfo" />
+  </wsdl:message>
+  <wsdl:message name="TicketInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:TicketInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetIn">
+    <wsdl:part name="aa" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="FlightSearchHttpGetIn">
+    <wsdl:part name="departure" type="s:string" />
+    <wsdl:part name="arrival" type="s:string" />
+    <wsdl:part name="departuredate" type="s:string" />
+    <wsdl:part name="returndate" type="s:string" />
+    <wsdl:part name="adult" type="s:string" />
+    <wsdl:part name="child" type="s:string" />
+    <wsdl:part name="infant" type="s:string" />
+    <wsdl:part name="flighttype" type="s:string" />
+    <wsdl:part name="onlydirect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FlightSearchHttpGetOut">
+    <wsdl:part name="Body" element="tns:BirsifirResult" />
+  </wsdl:message>
+  <wsdl:message name="DomesticFlightPriceHttpGetIn">
+    <wsdl:part name="sessionId" type="s:string" />
+    <wsdl:part name="yetiskin" type="s:string" />
+    <wsdl:part name="cocuk" type="s:string" />
+    <wsdl:part name="bebek" type="s:string" />
+    <wsdl:part name="gidisJson" type="s:string" />
+    <wsdl:part name="donusJson" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DomesticFlightPriceHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultDomesticFlightPrice" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicket3DHttpGetIn">
+    <wsdl:part name="flighttype" type="s:string" />
+    <wsdl:part name="destination" type="s:string" />
+    <wsdl:part name="arrival" type="s:string" />
+    <wsdl:part name="sessionid" type="s:string" />
+    <wsdl:part name="aspNetSessionid" type="s:string" />
+    <wsdl:part name="passengers" type="s:string" />
+    <wsdl:part name="adultcount" type="s:string" />
+    <wsdl:part name="childcount" type="s:string" />
+    <wsdl:part name="infcount" type="s:string" />
+    <wsdl:part name="gidisJson" type="s:string" />
+    <wsdl:part name="donusJson" type="s:string" />
+    <wsdl:part name="combinationId" type="s:string" />
+    <wsdl:part name="sequenceNumber" type="s:string" />
+    <wsdl:part name="cardname" type="s:string" />
+    <wsdl:part name="cardnumber" type="s:string" />
+    <wsdl:part name="cardmonth" type="s:string" />
+    <wsdl:part name="cardyear" type="s:string" />
+    <wsdl:part name="cardcvv" type="s:string" />
+    <wsdl:part name="baseprice" type="s:string" />
+    <wsdl:part name="totalprice" type="s:string" />
+    <wsdl:part name="bankid" type="s:string" />
+    <wsdl:part name="installment" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+    <wsdl:part name="phone" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicket3DHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultCreateTicked3D" />
+  </wsdl:message>
+  <wsdl:message name="TicketInfoHttpGetIn">
+    <wsdl:part name="ticketkey" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TicketInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultTicketInfo" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpPostIn">
+    <wsdl:part name="aa" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="FlightSearchHttpPostIn">
+    <wsdl:part name="departure" type="s:string" />
+    <wsdl:part name="arrival" type="s:string" />
+    <wsdl:part name="departuredate" type="s:string" />
+    <wsdl:part name="returndate" type="s:string" />
+    <wsdl:part name="adult" type="s:string" />
+    <wsdl:part name="child" type="s:string" />
+    <wsdl:part name="infant" type="s:string" />
+    <wsdl:part name="flighttype" type="s:string" />
+    <wsdl:part name="onlydirect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FlightSearchHttpPostOut">
+    <wsdl:part name="Body" element="tns:BirsifirResult" />
+  </wsdl:message>
+  <wsdl:message name="DomesticFlightPriceHttpPostIn">
+    <wsdl:part name="sessionId" type="s:string" />
+    <wsdl:part name="yetiskin" type="s:string" />
+    <wsdl:part name="cocuk" type="s:string" />
+    <wsdl:part name="bebek" type="s:string" />
+    <wsdl:part name="gidisJson" type="s:string" />
+    <wsdl:part name="donusJson" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DomesticFlightPriceHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResultDomesticFlightPrice" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicket3DHttpPostIn">
+    <wsdl:part name="flighttype" type="s:string" />
+    <wsdl:part name="destination" type="s:string" />
+    <wsdl:part name="arrival" type="s:string" />
+    <wsdl:part name="sessionid" type="s:string" />
+    <wsdl:part name="aspNetSessionid" type="s:string" />
+    <wsdl:part name="passengers" type="s:string" />
+    <wsdl:part name="adultcount" type="s:string" />
+    <wsdl:part name="childcount" type="s:string" />
+    <wsdl:part name="infcount" type="s:string" />
+    <wsdl:part name="gidisJson" type="s:string" />
+    <wsdl:part name="donusJson" type="s:string" />
+    <wsdl:part name="combinationId" type="s:string" />
+    <wsdl:part name="sequenceNumber" type="s:string" />
+    <wsdl:part name="cardname" type="s:string" />
+    <wsdl:part name="cardnumber" type="s:string" />
+    <wsdl:part name="cardmonth" type="s:string" />
+    <wsdl:part name="cardyear" type="s:string" />
+    <wsdl:part name="cardcvv" type="s:string" />
+    <wsdl:part name="baseprice" type="s:string" />
+    <wsdl:part name="totalprice" type="s:string" />
+    <wsdl:part name="bankid" type="s:string" />
+    <wsdl:part name="installment" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+    <wsdl:part name="phone" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicket3DHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResultCreateTicked3D" />
+  </wsdl:message>
+  <wsdl:message name="TicketInfoHttpPostIn">
+    <wsdl:part name="ticketkey" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TicketInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResultTicketInfo" />
+  </wsdl:message>
+  <wsdl:portType name="BirsifirSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlightSearch">
+      <wsdl:input message="tns:FlightSearchSoapIn" />
+      <wsdl:output message="tns:FlightSearchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DomesticFlightPrice">
+      <wsdl:input message="tns:DomesticFlightPriceSoapIn" />
+      <wsdl:output message="tns:DomesticFlightPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicket3D">
+      <wsdl:input message="tns:CreateTicket3DSoapIn" />
+      <wsdl:output message="tns:CreateTicket3DSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TicketInfo">
+      <wsdl:input message="tns:TicketInfoSoapIn" />
+      <wsdl:output message="tns:TicketInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BirsifirHttpGet">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpGetIn" />
+      <wsdl:output message="tns:HelloWorldHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlightSearch">
+      <wsdl:input message="tns:FlightSearchHttpGetIn" />
+      <wsdl:output message="tns:FlightSearchHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DomesticFlightPrice">
+      <wsdl:input message="tns:DomesticFlightPriceHttpGetIn" />
+      <wsdl:output message="tns:DomesticFlightPriceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicket3D">
+      <wsdl:input message="tns:CreateTicket3DHttpGetIn" />
+      <wsdl:output message="tns:CreateTicket3DHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TicketInfo">
+      <wsdl:input message="tns:TicketInfoHttpGetIn" />
+      <wsdl:output message="tns:TicketInfoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BirsifirHttpPost">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpPostIn" />
+      <wsdl:output message="tns:HelloWorldHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlightSearch">
+      <wsdl:input message="tns:FlightSearchHttpPostIn" />
+      <wsdl:output message="tns:FlightSearchHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DomesticFlightPrice">
+      <wsdl:input message="tns:DomesticFlightPriceHttpPostIn" />
+      <wsdl:output message="tns:DomesticFlightPriceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicket3D">
+      <wsdl:input message="tns:CreateTicket3DHttpPostIn" />
+      <wsdl:output message="tns:CreateTicket3DHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TicketInfo">
+      <wsdl:input message="tns:TicketInfoHttpPostIn" />
+      <wsdl:output message="tns:TicketInfoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BirsifirSoap" type="tns:BirsifirSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlightSearch">
+      <soap:operation soapAction="http://tempuri.org/FlightSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DomesticFlightPrice">
+      <soap:operation soapAction="http://tempuri.org/DomesticFlightPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicket3D">
+      <soap:operation soapAction="http://tempuri.org/CreateTicket3D" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TicketInfo">
+      <soap:operation soapAction="http://tempuri.org/TicketInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BirsifirSoap12" type="tns:BirsifirSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlightSearch">
+      <soap12:operation soapAction="http://tempuri.org/FlightSearch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DomesticFlightPrice">
+      <soap12:operation soapAction="http://tempuri.org/DomesticFlightPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicket3D">
+      <soap12:operation soapAction="http://tempuri.org/CreateTicket3D" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TicketInfo">
+      <soap12:operation soapAction="http://tempuri.org/TicketInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BirsifirHttpGet" type="tns:BirsifirHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlightSearch">
+      <http:operation location="/FlightSearch" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DomesticFlightPrice">
+      <http:operation location="/DomesticFlightPrice" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicket3D">
+      <http:operation location="/CreateTicket3D" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TicketInfo">
+      <http:operation location="/TicketInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BirsifirHttpPost" type="tns:BirsifirHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlightSearch">
+      <http:operation location="/FlightSearch" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DomesticFlightPrice">
+      <http:operation location="/DomesticFlightPrice" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicket3D">
+      <http:operation location="/CreateTicket3D" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TicketInfo">
+      <http:operation location="/TicketInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Birsifir">
+    <wsdl:port name="BirsifirSoap" binding="tns:BirsifirSoap">
+      <soap:address location="http://212.154.51.230:8080/Birsifir.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BirsifirSoap12" binding="tns:BirsifirSoap12">
+      <soap12:address location="http://212.154.51.230:8080/Birsifir.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BirsifirHttpGet" binding="tns:BirsifirHttpGet">
+      <http:address location="http://212.154.51.230:8080/Birsifir.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BirsifirHttpPost" binding="tns:BirsifirHttpPost">
+      <http:address location="http://212.154.51.230:8080/Birsifir.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

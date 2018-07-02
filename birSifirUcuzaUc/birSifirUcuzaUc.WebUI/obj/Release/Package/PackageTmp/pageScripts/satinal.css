@@ -1,0 +1,665 @@
+﻿
+.Satis-Block {
+    width: 62%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .Satis-Block h1 {
+        font-size: 15px;
+        margin: 10px;
+        color: #07253f;
+    }
+
+.flight-info-heading {
+    text-align: center;
+    /*background: #f1f1f1;*/
+    background: #f9676b;
+    font-size: 12px;
+    padding: 4px;
+    /*color: #666;*/
+    color: #fff;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.reservation-flight-item {
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+.row.bagaj {
+    float: right;
+    font-size: 11px;
+    padding: 10px;
+}
+
+.promotion {
+    color: #000;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 0.20%;
+}
+
+.airline-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 24px;
+    width: 24px;
+    background-image: url("../assets/images/airline-icon.png");
+    background-position: 0 -2584px;
+}
+
+    .airline-icon.airline-icon-airline-4U {
+        background-position: 0 0;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-8Q {
+        background-position: 0 -34px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-A3 {
+        background-position: 0 -68px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AA {
+        background-position: 0 -102px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AB {
+        background-position: 0 -136px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AC {
+        background-position: 0 -170px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AF {
+        background-position: 0 -204px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AJ {
+        background-position: 0 -238px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AM {
+        background-position: 0 -272px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AR {
+        background-position: 0 -306px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AV {
+        background-position: 0 -340px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-AZ {
+        background-position: 0 -374px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-BA {
+        background-position: 0 -408px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-BR {
+        background-position: 0 -442px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-CA {
+        background-position: 0 -476px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-CI {
+        background-position: 0 -510px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-CL {
+        background-position: 0 -544px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-CZ {
+        background-position: 0 -578px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-DL {
+        background-position: 0 -612px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-EI {
+        background-position: 0 -646px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-EK {
+        background-position: 0 -680px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-ET {
+        background-position: 0 -714px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-EY {
+        background-position: 0 -748px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-FB {
+        background-position: 0 -782px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-FV {
+        background-position: 0 -816px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-GF {
+        background-position: 0 -850px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-IB {
+        background-position: 0 -884px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-J2 {
+        background-position: 0 -918px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-JJ {
+        background-position: 0 -952px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-JP {
+        background-position: 0 -986px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-KC {
+        background-position: 0 -1020px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-KE {
+        background-position: 0 -1054px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-KK {
+        background-position: 0 -1088px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-KL {
+        background-position: 0 -1122px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-KQ {
+        background-position: 0 -1156px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-LH {
+        background-position: 0 -1190px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-LO {
+        background-position: 0 -1224px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-LX {
+        background-position: 0 -1258px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-LY {
+        background-position: 0 -1292px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-ME {
+        background-position: 0 -1326px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-MF {
+        background-position: 0 -1360px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-MH {
+        background-position: 0 -1394px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-MS {
+        background-position: 0 -1428px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-MU {
+        background-position: 0 -1462px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-NH {
+        background-position: 0 -1496px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-NZ {
+        background-position: 0 -1530px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-OA {
+        background-position: 0 -1564px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-OK {
+        background-position: 0 -1598px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-OS {
+        background-position: 0 -1632px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-OU {
+        background-position: 0 -1666px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-OZ {
+        background-position: 0 -1700px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-PC {
+        background-position: 0 -1734px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-QJ {
+        background-position: 0 -1768px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-QR {
+        background-position: 0 -1802px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-RJ {
+        background-position: 0 -1836px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-RO {
+        background-position: 0 -1870px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-S7 {
+        background-position: 0 -1904px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-SA {
+        background-position: 0 -1938px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-SK {
+        background-position: 0 -1972px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-SN {
+        background-position: 0 -2006px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-SQ {
+        background-position: 0 -2040px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-SU {
+        background-position: 0 -2074px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-SV {
+        background-position: 0 -2108px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-TG {
+        background-position: 0 -2142px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-TK {
+        background-position: 0 -2176px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-TP {
+        background-position: 0 -2210px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-TU {
+        background-position: 0 -2244px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-UA {
+        background-position: 0 -2278px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-US {
+        background-position: 0 -2312px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-UX {
+        background-position: 0 -2346px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-VN {
+        background-position: 0 -2380px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-VO {
+        background-position: 0 -2414px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-WX {
+        background-position: 0 -2448px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-XQ {
+        background-position: 0 -2482px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-YB {
+        background-position: 0 -2516px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-ZH {
+        background-position: 0 -2550px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .airline-icon.airline-icon-airline-PS {
+        background-position: 0 -2616px;
+        height: 24px;
+        width: 24px;
+    }
+
+.airline-name {
+    display: block;
+    text-align: center;
+}
+
+.price-info-content {
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.total-price-bottom {
+    text-align: right;
+    font-size: 14px;
+    color: #f9676b;
+    font-weight: bold;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#checkboxtcno0, #checkboxtcno1, #checkboxtcno2, #checkboxtcno3, #checkboxtcno4, #checkboxtcno5, #checkboxtcno6, #checkboxtcno7, #checkboxtcno8 {
+    margin: 0;
+    position: ABSOLUTE;
+    z-index: 999;
+    opacity: 0;
+    width: 145px;
+    height: 34px;
+    margin-left: -30px;
+}
+
+.checkboxTcNo p {
+    font-size: 11px;
+    text-align: Center;
+    margin: 2px;
+    margin-left: -42px;
+}
+
+.checkboxTcNo input:checked ~ .checkmark {
+    background-color: #f9676b;
+}
+
+    .checkboxTcNo input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+.checkboxTcNo .checkmark:after {
+    left: 14px;
+    top: 10px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.checkmark {
+    position: absolute;
+    display: block;
+    top: 0;
+    /* left: 0; */
+    height: 34px;
+    width: 34px;
+    background-color: #eee;
+    margin-left: -30px;
+}
+
+select#slcBilgiCinsiyet0,select#slcBilgiCinsiyet1,select#slcBilgiCinsiyet2,select#slcBilgiCinsiyet3,select#slcBilgiCinsiyet4,select#slcBilgiCinsiyet5,select#slcBilgiCinsiyet6,select#slcBilgiCinsiyet7,select#slcBilgiCinsiyet8{
+    width: 78px;
+}
+
+body, html {
+    font-size: 13px;
+}
+
+.mPhone {
+    width: 92%;
+    /* margin-left: 399px; */
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.passenger-form-inputs.passenger.clearfix.passenger-last {
+    padding: 10px 5px;
+}
+
+i.fa.fa-clock-o {
+    margin-left: 1.1%;
+}
+
+i.fa.fa-map-marker.fa-fw {
+    margin-left: 1.1%;
+}
+
+i.fa.fa-calendar {
+    margin-left: 1.1%;
+}
+
+
+.flight-info-content .departure .delay-seperator, .flight-info-content .return .delay-seperator {
+    position: relative;
+    height: 1px;
+    margin-top: 2.2%;
+    margin-bottom: 1.2%;
+    /* margin-left: 52px; */
+    border-top: 1px solid #ddd;
+}
+
+
+    .flight-info-content .departure .delay-seperator .delay-text, .flight-info-content .return .delay-seperator .delay-text {
+        position: absolute;
+        width: 250px;
+        left: 50%;
+        margin-left: -125px;
+        top: -10px;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #ddd;
+    }

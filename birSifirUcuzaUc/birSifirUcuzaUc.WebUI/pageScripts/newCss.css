@@ -1,0 +1,152 @@
+﻿.checkboxFive {
+    float: left;
+    width: 20%;
+}
+
+.checkboxFive input {
+    margin: 0;
+    position: ABSOLUTE;
+    z-index: 999;
+    opacity: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #f9676b;
+}
+
+.checkmark {
+    position: absolute;
+    display: block;
+    top: 0;
+    /* left: 0; */
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.clear {
+    clear: both;
+}
+
+.checkboxFive label {
+    display: block;
+    float: left;
+    margin-left: 34px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*asdsad*/
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/**/
+
+.flight-form-container .eu-flight-passenger-box .select-passenger {
+    border-width: 1px;
+    left: 0;
+}
+
+.guest-select .select-passenger {
+    position: absolute;
+    top: 55px;
+    left:14px;
+    width: 160px;
+    height: 277px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background-color: #fff;
+    user-select: none;
+    color:#000;
+}
+
+.guest-select .select-passenger .passenger-box-left {
+    margin-left: 12px;
+}
+
+.guest-select .select-passenger .passenger-type .age-info {
+    text-align: left;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.guest-select button {
+    padding: 4px 8px;
+    border-radius:0px;
+}
+
+.guest-select .select-passenger .passenger-type .form-adult-icon {
+    position: absolute;
+    top: 22px;
+    left: 10px;
+}
+.select-passenger span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.guest-select .select-passenger .passenger-type .passenger-inc-dec {
+    position: relative;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    padding: 3px;
+}
+
+.guest-select .select-passenger .passenger-type {
+    position: relative;
+    width: 100px;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+select#flight-class-select {
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+button.btn.btn-success.passenger-select-btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 6px;
+}
+
+
+
+/**/
+@media only screen and (max-width: 600px) {
+    .checkboxFive {
+    width: 40%;
+}
+}

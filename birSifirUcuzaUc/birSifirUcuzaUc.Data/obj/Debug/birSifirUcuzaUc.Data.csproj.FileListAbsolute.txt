@@ -1,0 +1,15 @@
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.pdb
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.pdb
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.csprojResolveAssemblyReference.cache
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.pdb
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.csprojResolveAssemblyReference.cache
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.pdb
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.pdb
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.csprojResolveAssemblyReference.cache
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.pdb

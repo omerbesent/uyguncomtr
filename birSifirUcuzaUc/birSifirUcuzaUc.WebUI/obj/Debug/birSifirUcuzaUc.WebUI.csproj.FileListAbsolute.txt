@@ -1,0 +1,31 @@
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.pdb
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\FluentNHibernate.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\NHibernate.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\Iesi.Collections.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.pdb
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.pdb
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.pdb
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\FluentNHibernate.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\NHibernate.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\Iesi.Collections.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.pdb
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.pdb
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.dll.config
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.pdb
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\FluentNHibernate.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\NHibernate.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\Iesi.Collections.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.pdb
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.csprojResolveAssemblyReference.cache
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.dll
+D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.pdb

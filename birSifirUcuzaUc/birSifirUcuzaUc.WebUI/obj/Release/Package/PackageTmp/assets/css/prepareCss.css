@@ -1,0 +1,22 @@
+﻿ul li.selectedLi {
+    background: #83a6e0bf;
+}
+
+ul li.selectedLi2 {
+    background: #83a6e0bf;
+}
+/*a:hover {
+            color: blue;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        ul{
+            list-style-type: none;
+        }*/
+
+body {
+}

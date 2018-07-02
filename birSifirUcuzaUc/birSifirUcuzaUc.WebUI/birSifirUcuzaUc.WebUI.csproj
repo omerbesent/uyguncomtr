@@ -1,0 +1,1616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2ACB45D-CE02-4E82-9B0F-3FAAB7D71BF1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>birSifirUcuzaUc.WebUI</RootNamespace>
+    <AssemblyName>birSifirUcuzaUc.WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin2\AddArticle.aspx" />
+    <Content Include="Admin2\ArticleList.aspx" />
+    <Content Include="Admin2\ckeditor\adapters\jquery.js" />
+    <Content Include="Admin2\ckeditor\build-config.js" />
+    <Content Include="Admin2\ckeditor\ckeditor.js" />
+    <Content Include="Admin2\ckeditor\config.js" />
+    <Content Include="Admin2\ckeditor\contents.css" />
+    <Content Include="Admin2\ckeditor\lang\af.js" />
+    <Content Include="Admin2\ckeditor\lang\ar.js" />
+    <Content Include="Admin2\ckeditor\lang\bg.js" />
+    <Content Include="Admin2\ckeditor\lang\bn.js" />
+    <Content Include="Admin2\ckeditor\lang\bs.js" />
+    <Content Include="Admin2\ckeditor\lang\ca.js" />
+    <Content Include="Admin2\ckeditor\lang\cs.js" />
+    <Content Include="Admin2\ckeditor\lang\cy.js" />
+    <Content Include="Admin2\ckeditor\lang\da.js" />
+    <Content Include="Admin2\ckeditor\lang\de.js" />
+    <Content Include="Admin2\ckeditor\lang\el.js" />
+    <Content Include="Admin2\ckeditor\lang\en-au.js" />
+    <Content Include="Admin2\ckeditor\lang\en-ca.js" />
+    <Content Include="Admin2\ckeditor\lang\en-gb.js" />
+    <Content Include="Admin2\ckeditor\lang\en.js" />
+    <Content Include="Admin2\ckeditor\lang\eo.js" />
+    <Content Include="Admin2\ckeditor\lang\es.js" />
+    <Content Include="Admin2\ckeditor\lang\et.js" />
+    <Content Include="Admin2\ckeditor\lang\eu.js" />
+    <Content Include="Admin2\ckeditor\lang\fa.js" />
+    <Content Include="Admin2\ckeditor\lang\fi.js" />
+    <Content Include="Admin2\ckeditor\lang\fo.js" />
+    <Content Include="Admin2\ckeditor\lang\fr-ca.js" />
+    <Content Include="Admin2\ckeditor\lang\fr.js" />
+    <Content Include="Admin2\ckeditor\lang\gl.js" />
+    <Content Include="Admin2\ckeditor\lang\gu.js" />
+    <Content Include="Admin2\ckeditor\lang\he.js" />
+    <Content Include="Admin2\ckeditor\lang\hi.js" />
+    <Content Include="Admin2\ckeditor\lang\hr.js" />
+    <Content Include="Admin2\ckeditor\lang\hu.js" />
+    <Content Include="Admin2\ckeditor\lang\id.js" />
+    <Content Include="Admin2\ckeditor\lang\is.js" />
+    <Content Include="Admin2\ckeditor\lang\it.js" />
+    <Content Include="Admin2\ckeditor\lang\ja.js" />
+    <Content Include="Admin2\ckeditor\lang\ka.js" />
+    <Content Include="Admin2\ckeditor\lang\km.js" />
+    <Content Include="Admin2\ckeditor\lang\ko.js" />
+    <Content Include="Admin2\ckeditor\lang\ku.js" />
+    <Content Include="Admin2\ckeditor\lang\lt.js" />
+    <Content Include="Admin2\ckeditor\lang\lv.js" />
+    <Content Include="Admin2\ckeditor\lang\mk.js" />
+    <Content Include="Admin2\ckeditor\lang\mn.js" />
+    <Content Include="Admin2\ckeditor\lang\ms.js" />
+    <Content Include="Admin2\ckeditor\lang\nb.js" />
+    <Content Include="Admin2\ckeditor\lang\nl.js" />
+    <Content Include="Admin2\ckeditor\lang\no.js" />
+    <Content Include="Admin2\ckeditor\lang\pl.js" />
+    <Content Include="Admin2\ckeditor\lang\pt-br.js" />
+    <Content Include="Admin2\ckeditor\lang\pt.js" />
+    <Content Include="Admin2\ckeditor\lang\ro.js" />
+    <Content Include="Admin2\ckeditor\lang\ru.js" />
+    <Content Include="Admin2\ckeditor\lang\si.js" />
+    <Content Include="Admin2\ckeditor\lang\sk.js" />
+    <Content Include="Admin2\ckeditor\lang\sl.js" />
+    <Content Include="Admin2\ckeditor\lang\sq.js" />
+    <Content Include="Admin2\ckeditor\lang\sr-latn.js" />
+    <Content Include="Admin2\ckeditor\lang\sr.js" />
+    <Content Include="Admin2\ckeditor\lang\sv.js" />
+    <Content Include="Admin2\ckeditor\lang\th.js" />
+    <Content Include="Admin2\ckeditor\lang\tr.js" />
+    <Content Include="Admin2\ckeditor\lang\tt.js" />
+    <Content Include="Admin2\ckeditor\lang\ug.js" />
+    <Content Include="Admin2\ckeditor\lang\uk.js" />
+    <Content Include="Admin2\ckeditor\lang\vi.js" />
+    <Content Include="Admin2\ckeditor\lang\zh-cn.js" />
+    <Content Include="Admin2\ckeditor\lang\zh.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\da.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\de.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\el.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\en.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\es.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\et.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\he.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\id.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\it.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\km.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\no.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\si.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\th.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js" />
+    <Content Include="Admin2\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" />
+    <Content Include="Admin2\ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="Admin2\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
+    <Content Include="Admin2\ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Admin2\ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Admin2\ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Admin2\ckeditor\plugins\icons.png" />
+    <Content Include="Admin2\ckeditor\plugins\icons_hidpi.png" />
+    <Content Include="Admin2\ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="Admin2\ckeditor\plugins\image\images\noimage.png" />
+    <Content Include="Admin2\ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Admin2\ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="Admin2\ckeditor\plugins\link\images\anchor.png" />
+    <Content Include="Admin2\ckeditor\plugins\link\images\hidpi\anchor.png" />
+    <Content Include="Admin2\ckeditor\plugins\magicline\images\hidpi\icon.png" />
+    <Content Include="Admin2\ckeditor\plugins\magicline\images\icon.png" />
+    <Content Include="Admin2\ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="Admin2\ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="Admin2\ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\ar.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\bg.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\ca.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\cs.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\cy.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\de.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\el.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\en.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\eo.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\es.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\et.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\fa.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\fi.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\fr.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\gl.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\he.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\hr.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\hu.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\id.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\it.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\ja.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\km.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\ku.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\lv.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\nb.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\nl.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\no.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\pl.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\pt.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\ru.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\si.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\sk.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\sl.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\sq.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\sv.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\th.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\tr.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\tt.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\ug.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\uk.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\vi.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\zh.js" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt" />
+    <Content Include="Admin2\ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="Admin2\ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="Admin2\ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="Admin2\ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="Admin2\ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="Admin2\ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="Admin2\ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="Admin2\ckeditor\plugins\wsc\dialogs\wsc_ie.js" />
+    <Content Include="Admin2\ckeditor\samples\ajax.html" />
+    <Content Include="Admin2\ckeditor\samples\api.html" />
+    <Content Include="Admin2\ckeditor\samples\appendto.html" />
+    <Content Include="Admin2\ckeditor\samples\assets\inlineall\logo.png" />
+    <Content Include="Admin2\ckeditor\samples\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="Admin2\ckeditor\samples\assets\sample.css" />
+    <Content Include="Admin2\ckeditor\samples\assets\sample.jpg" />
+    <Content Include="Admin2\ckeditor\samples\assets\uilanguages\languages.js" />
+    <Content Include="Admin2\ckeditor\samples\datafiltering.html" />
+    <Content Include="Admin2\ckeditor\samples\divreplace.html" />
+    <Content Include="Admin2\ckeditor\samples\index.html" />
+    <Content Include="Admin2\ckeditor\samples\inlineall.html" />
+    <Content Include="Admin2\ckeditor\samples\inlinebycode.html" />
+    <Content Include="Admin2\ckeditor\samples\inlinetextarea.html" />
+    <Content Include="Admin2\ckeditor\samples\jquery.html" />
+    <Content Include="Admin2\ckeditor\samples\plugins\dialog\assets\my_dialog.js" />
+    <Content Include="Admin2\ckeditor\samples\plugins\dialog\dialog.html" />
+    <Content Include="Admin2\ckeditor\samples\plugins\enterkey\enterkey.html" />
+    <Content Include="Admin2\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.swf" />
+    <Content Include="Admin2\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\swfobject.js" />
+    <Content Include="Admin2\ckeditor\samples\plugins\htmlwriter\outputforflash.html" />
+    <Content Include="Admin2\ckeditor\samples\plugins\htmlwriter\outputhtml.html" />
+    <Content Include="Admin2\ckeditor\samples\plugins\magicline\magicline.html" />
+    <Content Include="Admin2\ckeditor\samples\plugins\toolbar\toolbar.html" />
+    <Content Include="Admin2\ckeditor\samples\plugins\wysiwygarea\fullpage.html" />
+    <Content Include="Admin2\ckeditor\samples\readonly.html" />
+    <Content Include="Admin2\ckeditor\samples\replacebyclass.html" />
+    <Content Include="Admin2\ckeditor\samples\replacebycode.html" />
+    <Content Include="Admin2\ckeditor\samples\sample.css" />
+    <Content Include="Admin2\ckeditor\samples\sample.js" />
+    <Content Include="Admin2\ckeditor\samples\tabindex.html" />
+    <Content Include="Admin2\ckeditor\samples\uicolor.html" />
+    <Content Include="Admin2\ckeditor\samples\uilanguages.html" />
+    <Content Include="Admin2\ckeditor\samples\xhtmlstyle.html" />
+    <Content Include="Admin2\ckeditor\skins\moono\dialog.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\dialog_ie.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\dialog_ie7.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\dialog_ie8.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\dialog_iequirks.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\editor.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\editor_gecko.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\editor_ie.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\editor_ie7.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\editor_ie8.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\editor_iequirks.css" />
+    <Content Include="Admin2\ckeditor\skins\moono\icons.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\icons_hidpi.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\arrow.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\close.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\hidpi\close.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\hidpi\lock-open.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\hidpi\lock.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\hidpi\refresh.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\lock-open.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\lock.png" />
+    <Content Include="Admin2\ckeditor\skins\moono\images\refresh.png" />
+    <Content Include="Admin2\ckeditor\styles.js" />
+    <Content Include="Admin2\CustomScript\AddArticle.js" />
+    <Content Include="Admin2\CustomScript\ArticleList.js" />
+    <Content Include="Admin2\Images\biev-icon.png" />
+    <Content Include="Admin2\Images\biev.png" />
+    <Content Include="Admin2\Images\bottom_back.png" />
+    <Content Include="Admin2\Images\brace.png" />
+    <Content Include="Admin2\Images\button_back.png" />
+    <Content Include="Admin2\Images\cp_back.png" />
+    <Content Include="Admin2\Images\dpid.png" />
+    <Content Include="Admin2\Images\left_back.png" />
+    <Content Include="Admin2\Images\loading.gif" />
+    <Content Include="Admin2\Images\no-image.png" />
+    <Content Include="Admin2\Images\onexlogo.png" />
+    <Content Include="Admin2\Images\point_left.png" />
+    <Content Include="Admin2\Images\p_01.png" />
+    <Content Include="Admin2\Images\p_02.png" />
+    <Content Include="Admin2\Images\p_03.png" />
+    <Content Include="Admin2\Images\p_04.png" />
+    <Content Include="Admin2\Images\p_05.png" />
+    <Content Include="Admin2\Images\p_06.png" />
+    <Content Include="Admin2\Images\p_07.png" />
+    <Content Include="Admin2\Images\p_08.png" />
+    <Content Include="Admin2\Images\p_09.png" />
+    <Content Include="Admin2\Images\p_10.png" />
+    <Content Include="Admin2\Images\p_11.png" />
+    <Content Include="Admin2\Images\p_12.png" />
+    <Content Include="Admin2\Images\tipsy.gif" />
+    <Content Include="Admin2\Images\top_back.png" />
+    <Content Include="Admin2\Images\ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
+    <Content Include="Admin2\Images\ui-bg_dots-small_65_a6a6a6_2x2.png" />
+    <Content Include="Admin2\Images\ui-bg_flat_0_333333_40x100.png" />
+    <Content Include="Admin2\Images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="Admin2\Images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="Admin2\Images\ui-bg_flat_65_ffffff_40x100.png" />
+    <Content Include="Admin2\Images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Admin2\Images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="Admin2\Images\ui-bg_glass_55_fbf8ee_1x400.png" />
+    <Content Include="Admin2\Images\ui-bg_glow-ball_25_000000_600x600.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-hard_100_eeeeee_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-hard_20_1376c9_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-soft_100_1376c9_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-soft_15_213e86_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-soft_15_933092_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-soft_15_f80000_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-soft_35_2b2b2b_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-soft_44_1376c9_1x100.png" />
+    <Content Include="Admin2\Images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="Admin2\Images\ui-icons_004276_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_222222_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_54ac00_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_666666_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_a83300_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_cccccc_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_f80000_256x240.png" />
+    <Content Include="Admin2\Images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Admin2\Images\user_back.png" />
+    <Content Include="Admin2\Images\warning.png" />
+    <Content Include="Admin2\Index.aspx" />
+    <Content Include="Admin2\Scripts\bootstrap.min.js" />
+    <Content Include="Admin2\Scripts\bQuery.js" />
+    <Content Include="Admin2\Scripts\default.js" />
+    <Content Include="Admin2\Scripts\jquery-1.9.1.js" />
+    <Content Include="Admin2\Scripts\jquery-3.3.1.js" />
+    <Content Include="Admin2\Scripts\jquery-ui-1.10.4.min.js" />
+    <Content Include="Admin2\Scripts\jquery-ui-extensions.js" />
+    <Content Include="Admin2\Scripts\jquery.fileupload.js" />
+    <Content Include="Admin2\Scripts\jquery.tipsy.js" />
+    <Content Include="Admin2\Styles\table.css" />
+    <Content Include="Admin2\Scripts\toastr.js" />
+    <Content Include="Admin2\Styles\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Admin2\Styles\ManageMain.css" />
+    <Content Include="Admin2\Styles\tipsy.css" />
+    <Content Include="Admin2\Styles\toastr.css" />
+    <Content Include="Admin\addArticle.aspx" />
+    <Content Include="Admin\articleList.aspx" />
+    <Content Include="Admin\css\chosen.css" />
+    <Content Include="Admin\css\colorpicker.css" />
+    <Content Include="Admin\css\fancybox.css" />
+    <Content Include="Admin\css\fullcalendar.css" />
+    <Content Include="Admin\css\jquery-ui-1.8.16.custom.css" />
+    <Content Include="Admin\css\jquery.jgrowl.css" />
+    <Content Include="Admin\css\login.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\css\tables.css" />
+    <Content Include="Admin\css\tipTip.css" />
+    <Content Include="Admin\css\validationEngine.jquery.css" />
+    <Content Include="Admin\dashboard.aspx" />
+    <Content Include="Admin\images\alert-bg.png" />
+    <Content Include="Admin\images\alert-icon.png" />
+    <Content Include="Admin\images\arrow.png" />
+    <Content Include="Admin\images\article-action.png" />
+    <Content Include="Admin\images\ava-1.png" />
+    <Content Include="Admin\images\ava-2.png" />
+    <Content Include="Admin\images\ava-3.png" />
+    <Content Include="Admin\images\ava-4.png" />
+    <Content Include="Admin\images\ava-5.png" />
+    <Content Include="Admin\images\avatar_message_1.png" />
+    <Content Include="Admin\images\avatar_message_2.png" />
+    <Content Include="Admin\images\bg.png" />
+    <Content Include="Admin\images\blockquote.png" />
+    <Content Include="Admin\images\button-icon-white.png" />
+    <Content Include="Admin\images\button-icon.png" />
+    <Content Include="Admin\images\button.png" />
+    <Content Include="Admin\images\check-list.png" />
+    <Content Include="Admin\images\check.png" />
+    <Content Include="Admin\images\checkbox.png" />
+    <Content Include="Admin\images\chosen-sprite.png" />
+    <Content Include="Admin\images\color\blank.gif" />
+    <Content Include="Admin\images\color\color.png" />
+    <Content Include="Admin\images\color\colorpicker_background.png" />
+    <Content Include="Admin\images\color\colorpicker_hex.png" />
+    <Content Include="Admin\images\color\colorpicker_hsb_b.png" />
+    <Content Include="Admin\images\color\colorpicker_hsb_h.png" />
+    <Content Include="Admin\images\color\colorpicker_hsb_s.png" />
+    <Content Include="Admin\images\color\colorpicker_indic.gif" />
+    <Content Include="Admin\images\color\colorpicker_overlay.png" />
+    <Content Include="Admin\images\color\colorpicker_rgb_b.png" />
+    <Content Include="Admin\images\color\colorpicker_rgb_g.png" />
+    <Content Include="Admin\images\color\colorpicker_rgb_r.png" />
+    <Content Include="Admin\images\color\colorpicker_select.gif" />
+    <Content Include="Admin\images\color\colorpicker_submit.png" />
+    <Content Include="Admin\images\color\custom_background.png" />
+    <Content Include="Admin\images\color\custom_hex.png" />
+    <Content Include="Admin\images\color\custom_hsb_b.png" />
+    <Content Include="Admin\images\color\custom_hsb_h.png" />
+    <Content Include="Admin\images\color\custom_hsb_s.png" />
+    <Content Include="Admin\images\color\custom_indic.gif" />
+    <Content Include="Admin\images\color\custom_rgb_b.png" />
+    <Content Include="Admin\images\color\custom_rgb_g.png" />
+    <Content Include="Admin\images\color\custom_rgb_r.png" />
+    <Content Include="Admin\images\color\custom_submit.png" />
+    <Content Include="Admin\images\color\select.png" />
+    <Content Include="Admin\images\color\select2.png" />
+    <Content Include="Admin\images\color\slider.png" />
+    <Content Include="Admin\images\contact-nav.png" />
+    <Content Include="Admin\images\del.png" />
+    <Content Include="Admin\images\delete.png" />
+    <Content Include="Admin\images\error.jpg" />
+    <Content Include="Admin\images\fancybox\blank.gif" />
+    <Content Include="Admin\images\fancybox\fancybox-x.png" />
+    <Content Include="Admin\images\fancybox\fancybox-y.png" />
+    <Content Include="Admin\images\fancybox\fancybox.png" />
+    <Content Include="Admin\images\fancybox\fancy_close.png" />
+    <Content Include="Admin\images\fancybox\fancy_loading.png" />
+    <Content Include="Admin\images\fancybox\fancy_nav_left.png" />
+    <Content Include="Admin\images\fancybox\fancy_nav_right.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_e.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_n.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_ne.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_nw.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_s.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_se.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_sw.png" />
+    <Content Include="Admin\images\fancybox\fancy_shadow_w.png" />
+    <Content Include="Admin\images\fancybox\fancy_title_left.png" />
+    <Content Include="Admin\images\fancybox\fancy_title_main.png" />
+    <Content Include="Admin\images\fancybox\fancy_title_over.png" />
+    <Content Include="Admin\images\fancybox\fancy_title_right.png" />
+    <Content Include="Admin\images\flags.png" />
+    <Content Include="Admin\images\fullscreen\1.jpg" />
+    <Content Include="Admin\images\fullscreen\10.jpg" />
+    <Content Include="Admin\images\fullscreen\11.jpg" />
+    <Content Include="Admin\images\fullscreen\12.jpg" />
+    <Content Include="Admin\images\fullscreen\2.jpg" />
+    <Content Include="Admin\images\fullscreen\3.jpg" />
+    <Content Include="Admin\images\fullscreen\4.jpg" />
+    <Content Include="Admin\images\fullscreen\5.jpg" />
+    <Content Include="Admin\images\fullscreen\6.jpg" />
+    <Content Include="Admin\images\fullscreen\7.jpg" />
+    <Content Include="Admin\images\fullscreen\8.jpg" />
+    <Content Include="Admin\images\fullscreen\9.jpg" />
+    <Content Include="Admin\images\fullscreen\high.gif" />
+    <Content Include="Admin\images\fullscreen\huge.gif" />
+    <Content Include="Admin\images\fullscreen\wide.gif" />
+    <Content Include="Admin\images\header-bg.png" />
+    <Content Include="Admin\images\help.png" />
+    <Content Include="Admin\images\icon-online.png" />
+    <Content Include="Admin\images\input-login.png" />
+    <Content Include="Admin\images\input.png" />
+    <Content Include="Admin\images\language-active.png" />
+    <Content Include="Admin\images\logo.png" />
+    <Content Include="Admin\images\logout.png" />
+    <Content Include="Admin\images\menu-left-bg.png" />
+    <Content Include="Admin\images\menu-left-icon-hover.png" />
+    <Content Include="Admin\images\menu\buttons.png" />
+    <Content Include="Admin\images\menu\cal.png" />
+    <Content Include="Admin\images\menu\charts.png" />
+    <Content Include="Admin\images\menu\contact.png" />
+    <Content Include="Admin\images\menu\editor.png" />
+    <Content Include="Admin\images\menu\error.png" />
+    <Content Include="Admin\images\menu\file.png" />
+    <Content Include="Admin\images\menu\form.png" />
+    <Content Include="Admin\images\menu\gallery.png" />
+    <Content Include="Admin\images\menu\general.png" />
+    <Content Include="Admin\images\menu\grid.png" />
+    <Content Include="Admin\images\menu\home.png" />
+    <Content Include="Admin\images\menu\message.png" />
+    <Content Include="Admin\images\menu\player.png" />
+    <Content Include="Admin\images\menu\step.png" />
+    <Content Include="Admin\images\menu\table.png" />
+    <Content Include="Admin\images\menu\typo.png" />
+    <Content Include="Admin\images\menu\widgets.png" />
+    <Content Include="Admin\images\message-bg.png" />
+    <Content Include="Admin\images\more.png" />
+    <Content Include="Admin\images\num.png" />
+    <Content Include="Admin\images\online-num.png" />
+    <Content Include="Admin\images\pic-border-2.png" />
+    <Content Include="Admin\images\pic-border-3.png" />
+    <Content Include="Admin\images\pic-border.png" />
+    <Content Include="Admin\images\plus.png" />
+    <Content Include="Admin\images\px.gif" />
+    <Content Include="Admin\images\radio.png" />
+    <Content Include="Admin\images\report-bg.png" />
+    <Content Include="Admin\images\search.png" />
+    <Content Include="Admin\images\setting.png" />
+    <Content Include="Admin\images\thumbnails\13.png" />
+    <Content Include="Admin\images\thumbnails\14.png" />
+    <Content Include="Admin\images\thumbnails\t_1.jpg" />
+    <Content Include="Admin\images\thumbnails\t_10.jpg" />
+    <Content Include="Admin\images\thumbnails\t_11.jpg" />
+    <Content Include="Admin\images\thumbnails\t_12.jpg" />
+    <Content Include="Admin\images\thumbnails\t_13.jpg" />
+    <Content Include="Admin\images\thumbnails\t_14.jpg" />
+    <Content Include="Admin\images\thumbnails\t_15.jpg" />
+    <Content Include="Admin\images\thumbnails\t_16.jpg" />
+    <Content Include="Admin\images\thumbnails\t_17.jpg" />
+    <Content Include="Admin\images\thumbnails\t_2.jpg" />
+    <Content Include="Admin\images\thumbnails\t_3.jpg" />
+    <Content Include="Admin\images\thumbnails\t_4.jpg" />
+    <Content Include="Admin\images\thumbnails\t_5.jpg" />
+    <Content Include="Admin\images\thumbnails\t_6.jpg" />
+    <Content Include="Admin\images\thumbnails\t_7.jpg" />
+    <Content Include="Admin\images\thumbnails\t_8.jpg" />
+    <Content Include="Admin\images\thumbnails\t_9.jpg" />
+    <Content Include="Admin\images\triangle.png" />
+    <Content Include="Admin\images\trigger.png" />
+    <Content Include="Admin\images\ui\calendar-act.gif" />
+    <Content Include="Admin\images\ui\calendar.gif" />
+    <Content Include="Admin\images\ui\calendar.jpg" />
+    <Content Include="Admin\images\ui\progress.gif" />
+    <Content Include="Admin\images\ui\slider.gif" />
+    <Content Include="Admin\images\ui\slider_bg.gif" />
+    <Content Include="Admin\images\ui\slider_bg_horiz.gif" />
+    <Content Include="Admin\images\ui\triangle-e.png" />
+    <Content Include="Admin\images\ui\triangle-w.png" />
+    <Content Include="Admin\images\ui\ui-bg_diagonals-medium_75_cccccc_40x40.png" />
+    <Content Include="Admin\images\ui\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Admin\images\ui\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Admin\images\ui\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Admin\images\ui\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Admin\images\ui\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Admin\images\ui\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Admin\images\ui\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="Admin\images\ui\ui-icons_222222_256x240.png" />
+    <Content Include="Admin\images\ui\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Admin\images\ui\ui-icons_454545_256x240.png" />
+    <Content Include="Admin\images\ui\ui-icons_888888_256x240.png" />
+    <Content Include="Admin\images\ui\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Admin\images\update.png" />
+    <Content Include="Admin\images\user_business_add.png" />
+    <Content Include="Admin\images\user_business_chart.png" />
+    <Content Include="Admin\images\user_business_info.png" />
+    <Content Include="Admin\images\user_business_search.png" />
+    <Content Include="Admin\images\user_business_warning.png" />
+    <Content Include="Admin\images\zoom-2.png" />
+    <Content Include="Admin\images\zoom.png" />
+    <Content Include="Admin\lib\autoresize.jquery.min.js" />
+    <Content Include="Admin\lib\chosen.jquery.min.js" />
+    <Content Include="Admin\lib\colorpicker.js" />
+    <Content Include="Admin\lib\ddaccordion.js" />
+    <Content Include="Admin\lib\editor\buttons.png" />
+    <Content Include="Admin\lib\editor\default.css" />
+    <Content Include="Admin\lib\editor\default.js" />
+    <Content Include="Admin\lib\editor\jquery.wysiwyg.bg.png" />
+    <Content Include="Admin\lib\editor\jquery.wysiwyg.css" />
+    <Content Include="Admin\lib\editor\jquery.wysiwyg.js" />
+    <Content Include="Admin\lib\editor\jquery.wysiwyg.old-school.css" />
+    <Content Include="Admin\lib\editor\wysiwyg.image.js" />
+    <Content Include="Admin\lib\editor\wysiwyg.link.js" />
+    <Content Include="Admin\lib\editor\wysiwyg.table.js" />
+    <Content Include="Admin\lib\elfinder\css\elfinder.css" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Admin\lib\elfinder\css\smoothness\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Admin\lib\elfinder\elfinder.php.html" />
+    <Content Include="Admin\lib\elfinder\files\.tmb\c79e158bd79617b34b895bef86e64f63.png" />
+    <Content Include="Admin\lib\elfinder\files\untitled folder\Tulips.jpg" />
+    <Content Include="Admin\lib\elfinder\images\icons-big.png" />
+    <Content Include="Admin\lib\elfinder\images\icons-small.png" />
+    <Content Include="Admin\lib\elfinder\images\ql.png" />
+    <Content Include="Admin\lib\elfinder\images\spinner.gif" />
+    <Content Include="Admin\lib\elfinder\images\toolbar.png" />
+    <Content Include="Admin\lib\elfinder\js\elfinder.full.js" />
+    <Content Include="Admin\lib\elfinder\js\elfinder.min.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.cs.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.de.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.el.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.es.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.fr.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.hu.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.it.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.jp.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.lv.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.nl.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.pl.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.ru.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.sk.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.th.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.tr.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.uk.js" />
+    <Content Include="Admin\lib\elfinder\js\i18n\elfinder.vi.js" />
+    <Content Include="Admin\lib\elfinder\js\jquery-1.6.1.min.js" />
+    <Content Include="Admin\lib\elfinder\js\jquery-ui-1.8.13.custom.min.js" />
+    <Content Include="Admin\lib\elfinder\src\css\elfinder.css" />
+    <Content Include="Admin\lib\elfinder\src\elfinder-src.php.html" />
+    <Content Include="Admin\lib\elfinder\src\elfinder-src.py.html" />
+    <Content Include="Admin\lib\elfinder\src\images\icons-big.png" />
+    <Content Include="Admin\lib\elfinder\src\images\icons-small.png" />
+    <Content Include="Admin\lib\elfinder\src\images\ql.png" />
+    <Content Include="Admin\lib\elfinder\src\images\spinner.gif" />
+    <Content Include="Admin\lib\elfinder\src\images\toolbar.png" />
+    <Content Include="Admin\lib\elfinder\src\js\elFinder.eventsManager.js" />
+    <Content Include="Admin\lib\elfinder\src\js\elFinder.js" />
+    <Content Include="Admin\lib\elfinder\src\js\elFinder.quickLook.js" />
+    <Content Include="Admin\lib\elfinder\src\js\elFinder.ui.js" />
+    <Content Include="Admin\lib\elfinder\src\js\elFinder.view.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.cs.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.de.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.el.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.es.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.fr.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.hu.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.it.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.jp.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.lv.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.nl.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.pl.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.pt_BR.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.ru.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.sk.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.th.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.tr.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.uk.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.vi.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.YOUR_LANG.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.zh_CN.js" />
+    <Content Include="Admin\lib\elfinder\src\js\i18n\elfinder.zh_TW.js" />
+    <Content Include="Admin\lib\fancybox\fancybox.js" />
+    <Content Include="Admin\lib\forms.js" />
+    <Content Include="Admin\lib\formToWizard.js" />
+    <Content Include="Admin\lib\fullcalendar.min.js" />
+    <Content Include="Admin\lib\functions.js" />
+    <Content Include="Admin\lib\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="Admin\lib\jquery.alerts.js" />
+    <Content Include="Admin\lib\jquery.dataTables.min.js" />
+    <Content Include="Admin\lib\jquery.flot.min.js" />
+    <Content Include="Admin\lib\jquery.flot.orderBars.js" />
+    <Content Include="Admin\lib\jquery.flot.pie.js" />
+    <Content Include="Admin\lib\jquery.flot.resize.js" />
+    <Content Include="Admin\lib\jquery.jgrowl_minimized.js" />
+    <Content Include="Admin\lib\jquery.tipTip.minified.js" />
+    <Content Include="Admin\lib\jquery.validationEngine-en.js" />
+    <Content Include="Admin\lib\jquery.validationEngine.js" />
+    <Content Include="Admin\lib\player\css\style.css" />
+    <Content Include="Admin\lib\player\files\1.m4v" />
+    <Content Include="Admin\lib\player\files\images\bg.jpg" />
+    <Content Include="Admin\lib\player\files\images\sample-playlist-item.png" />
+    <Content Include="Admin\lib\player\files\images\sample-playlist-item2.png" />
+    <Content Include="Admin\lib\player\files\images\title.png" />
+    <Content Include="Admin\lib\player\files\images\video-container-inner-bg.png" />
+    <Content Include="Admin\lib\player\files\images\video-container-outer-bg.jpg" />
+    <Content Include="Admin\lib\player\files\index.html" />
+    <Content Include="Admin\lib\player\images\button-separator.jpg" />
+    <Content Include="Admin\lib\player\images\fullscreen-button.png" />
+    <Content Include="Admin\lib\player\images\hd-button.png" />
+    <Content Include="Admin\lib\player\images\heart-button.png" />
+    <Content Include="Admin\lib\player\images\heart-count.png" />
+    <Content Include="Admin\lib\player\images\pause-button.png" />
+    <Content Include="Admin\lib\player\images\play-button.png" />
+    <Content Include="Admin\lib\player\images\player-bg.jpg" />
+    <Content Include="Admin\lib\player\images\playlist-bg.png" />
+    <Content Include="Admin\lib\player\images\playlist-button.png" />
+    <Content Include="Admin\lib\player\images\playlist-play-icon.png" />
+    <Content Include="Admin\lib\player\images\progress-bg.jpg" />
+    <Content Include="Admin\lib\player\images\progress-elapsed-bg.jpg" />
+    <Content Include="Admin\lib\player\images\scroll-thumb.png" />
+    <Content Include="Admin\lib\player\images\settings-button.png" />
+    <Content Include="Admin\lib\player\images\volume-icon.png" />
+    <Content Include="Admin\lib\player\Instructions.txt" />
+    <Content Include="Admin\lib\player\jquery-jplayer\Jplayer.swf" />
+    <Content Include="Admin\lib\player\jquery-jplayer\jquery.jplayer.js" />
+    <Content Include="Admin\lib\player\License.txt" />
+    <Content Include="Admin\lib\player\ttw-video-player-min.js" />
+    <Content Include="Admin\lib\player\ttw-video-player.js" />
+    <Content Include="Admin\lib\slidernav-min.js" />
+    <Content Include="Admin\lib\validation.js" />
+    <Content Include="Admin\login.aspx" />
+    <Content Include="Admin\script\addArticle.js" />
+    <Content Include="Admin\script\articleList.js" />
+    <Content Include="Admin\script\jquery.fileupload.js" />
+    <Content Include="Admin\script\loginScript.js" />
+    <Content Include="assets\css\animate.min.css" />
+    <Content Include="assets\css\bootstrap-select.min.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\color\blue.css" />
+    <Content Include="assets\css\color\brown.css" />
+    <Content Include="assets\css\color\green.css" />
+    <Content Include="assets\css\color\light-green.css" />
+    <Content Include="assets\css\color\orange.css" />
+    <Content Include="assets\css\color\purple.css" />
+    <Content Include="assets\css\color\yellow.css" />
+    <Content Include="assets\css\flexslider.css" />
+    <Content Include="assets\css\jquery-ui.min.css" />
+    <Content Include="assets\css\light.css" />
+    <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\owl-carousel-theme.css" />
+    <Content Include="assets\css\owl.carousel.css" />
+    <Content Include="assets\css\prepareCss.css" />
+    <Content Include="assets\css\seferCss.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\images\active.jpg" />
+    <Content Include="assets\images\airline-icon.png" />
+    <Content Include="assets\images\airline\0B.png" />
+    <Content Include="assets\images\airline\2M.png" />
+    <Content Include="assets\images\airline\3K.png" />
+    <Content Include="assets\images\airline\3L.png" />
+    <Content Include="assets\images\airline\3O.png" />
+    <Content Include="assets\images\airline\4O.png" />
+    <Content Include="assets\images\airline\4T.png" />
+    <Content Include="assets\images\airline\4U.png" />
+    <Content Include="assets\images\airline\5K.png" />
+    <Content Include="assets\images\airline\6R.png" />
+    <Content Include="assets\images\airline\7K.png" />
+    <Content Include="assets\images\airline\7W.png" />
+    <Content Include="assets\images\airline\8A.png" />
+    <Content Include="assets\images\airline\8P.png" />
+    <Content Include="assets\images\airline\8Q.png" />
+    <Content Include="assets\images\airline\8U.png" />
+    <Content Include="assets\images\airline\9B.png" />
+    <Content Include="assets\images\airline\9D.png" />
+    <Content Include="assets\images\airline\9E.png" />
+    <Content Include="assets\images\airline\9U.png" />
+    <Content Include="assets\images\airline\9W.png" />
+    <Content Include="assets\images\airline\A3.png" />
+    <Content Include="assets\images\airline\A5.png" />
+    <Content Include="assets\images\airline\A9.png" />
+    <Content Include="assets\images\airline\AA.png" />
+    <Content Include="assets\images\airline\AB.png" />
+    <Content Include="assets\images\airline\AC.png" />
+    <Content Include="assets\images\airline\AF.png" />
+    <Content Include="assets\images\airline\AG.png" />
+    <Content Include="assets\images\airline\AH.png" />
+    <Content Include="assets\images\airline\AI.png" />
+    <Content Include="assets\images\airline\airline.jpg" />
+    <Content Include="assets\images\airline\airline.png" />
+    <Content Include="assets\images\airline\AJ.png" />
+    <Content Include="assets\images\airline\AJA.png" />
+    <Content Include="assets\images\airline\AM.png" />
+    <Content Include="assets\images\airline\AN.png" />
+    <Content Include="assets\images\airline\AP.png" />
+    <Content Include="assets\images\airline\AR.png" />
+    <Content Include="assets\images\airline\AS.png" />
+    <Content Include="assets\images\airline\AT.png" />
+    <Content Include="assets\images\airline\AY.png" />
+    <Content Include="assets\images\airline\AZ.png" />
+    <Content Include="assets\images\airline\B2.png" />
+    <Content Include="assets\images\airline\B6.png" />
+    <Content Include="assets\images\airline\BA.png" />
+    <Content Include="assets\images\airline\BD.png" />
+    <Content Include="assets\images\airline\BE.png" />
+    <Content Include="assets\images\airline\BI.png" />
+    <Content Include="assets\images\airline\BIE.png" />
+    <Content Include="assets\images\airline\BJ.png" />
+    <Content Include="assets\images\airline\BL.png" />
+    <Content Include="assets\images\airline\BR.png" />
+    <Content Include="assets\images\airline\BT.png" />
+    <Content Include="assets\images\airline\BUDO.png" />
+    <Content Include="assets\images\airline\BV.png" />
+    <Content Include="assets\images\airline\BX.png" />
+    <Content Include="assets\images\airline\BY.png" />
+    <Content Include="assets\images\airline\CA.png" />
+    <Content Include="assets\images\airline\CAI.png" />
+    <Content Include="assets\images\airline\CD.png" />
+    <Content Include="assets\images\airline\CI.png" />
+    <Content Include="assets\images\airline\CJ.png" />
+    <Content Include="assets\images\airline\CL.png" />
+    <Content Include="assets\images\airline\CND.png" />
+    <Content Include="assets\images\airline\CO.png" />
+    <Content Include="assets\images\airline\CRL.png" />
+    <Content Include="assets\images\airline\CT.png" />
+    <Content Include="assets\images\airline\CX.png" />
+    <Content Include="assets\images\airline\CY.png" />
+    <Content Include="assets\images\airline\CZ.png" />
+    <Content Include="assets\images\airline\DE.png" />
+    <Content Include="assets\images\airline\DG.png" />
+    <Content Include="assets\images\airline\DL.png" />
+    <Content Include="assets\images\airline\DN.png" />
+    <Content Include="assets\images\airline\DT.png" />
+    <Content Include="assets\images\airline\DU.png" />
+    <Content Include="assets\images\airline\DX.png" />
+    <Content Include="assets\images\airline\DY.png" />
+    <Content Include="assets\images\airline\E5.png" />
+    <Content Include="assets\images\airline\ED.png" />
+    <Content Include="assets\images\airline\EI.png" />
+    <Content Include="assets\images\airline\EK.png" />
+    <Content Include="assets\images\airline\EN.png" />
+    <Content Include="assets\images\airline\ET.png" />
+    <Content Include="assets\images\airline\eu-icon-s5e0aaa2631.png" />
+    <Content Include="assets\images\airline\EW.png" />
+    <Content Include="assets\images\airline\EY.png" />
+    <Content Include="assets\images\airline\F7.png" />
+    <Content Include="assets\images\airline\F9.png" />
+    <Content Include="assets\images\airline\FB.png" />
+    <Content Include="assets\images\airline\FH.png" />
+    <Content Include="assets\images\airline\FHE.png" />
+    <Content Include="assets\images\airline\FHY.png" />
+    <Content Include="assets\images\airline\FI.png" />
+    <Content Include="assets\images\airline\FL.png" />
+    <Content Include="assets\images\airline\FM.png" />
+    <Content Include="assets\images\airline\FPO.png" />
+    <Content Include="assets\images\airline\FR.png" />
+    <Content Include="assets\images\airline\FS.png" />
+    <Content Include="assets\images\airline\FV.png" />
+    <Content Include="assets\images\airline\FZ.png" />
+    <Content Include="assets\images\airline\G3.png" />
+    <Content Include="assets\images\airline\G4.png" />
+    <Content Include="assets\images\airline\G9.png" />
+    <Content Include="assets\images\airline\GA.png" />
+    <Content Include="assets\images\airline\GF.png" />
+    <Content Include="assets\images\airline\GHY.png" />
+    <Content Include="assets\images\airline\GK.png" />
+    <Content Include="assets\images\airline\GW.png" />
+    <Content Include="assets\images\airline\GXL.png" />
+    <Content Include="assets\images\airline\H3.png" />
+    <Content Include="assets\images\airline\H5.png" />
+    <Content Include="assets\images\airline\H9.png" />
+    <Content Include="assets\images\airline\HG.png" />
+    <Content Include="assets\images\airline\HK.png" />
+    <Content Include="assets\images\airline\HM.png" />
+    <Content Include="assets\images\airline\HQ.png" />
+    <Content Include="assets\images\airline\HR.png" />
+    <Content Include="assets\images\airline\HRM.png" />
+    <Content Include="assets\images\airline\HU.png" />
+    <Content Include="assets\images\airline\HV.png" />
+    <Content Include="assets\images\airline\HX.png" />
+    <Content Include="assets\images\airline\HY.png" />
+    <Content Include="assets\images\airline\I2.png" />
+    <Content Include="assets\images\airline\I9.png" />
+    <Content Include="assets\images\airline\IB.png" />
+    <Content Include="assets\images\airline\IDO.png" />
+    <Content Include="assets\images\airline\IG.png" />
+    <Content Include="assets\images\airline\IQ.png" />
+    <Content Include="assets\images\airline\IR.png" />
+    <Content Include="assets\images\airline\IZ.png" />
+    <Content Include="assets\images\airline\J2.png" />
+    <Content Include="assets\images\airline\JA.png" />
+    <Content Include="assets\images\airline\JAF.png" />
+    <Content Include="assets\images\airline\JC.png" />
+    <Content Include="assets\images\airline\JE.png" />
+    <Content Include="assets\images\airline\JJ.png" />
+    <Content Include="assets\images\airline\JL.png" />
+    <Content Include="assets\images\airline\JP.png" />
+    <Content Include="assets\images\airline\JQ.png" />
+    <Content Include="assets\images\airline\JU.png" />
+    <Content Include="assets\images\airline\K2.png" />
+    <Content Include="assets\images\airline\KA.png" />
+    <Content Include="assets\images\airline\KC.png" />
+    <Content Include="assets\images\airline\KD.png" />
+    <Content Include="assets\images\airline\KE.png" />
+    <Content Include="assets\images\airline\KHO.png" />
+    <Content Include="assets\images\airline\KK.png" />
+    <Content Include="assets\images\airline\KL.png" />
+    <Content Include="assets\images\airline\KM.png" />
+    <Content Include="assets\images\airline\KQ.png" />
+    <Content Include="assets\images\airline\KU.png" />
+    <Content Include="assets\images\airline\L9.png" />
+    <Content Include="assets\images\airline\LA.png" />
+    <Content Include="assets\images\airline\LC.png" />
+    <Content Include="assets\images\airline\LG.png" />
+    <Content Include="assets\images\airline\LH.png" />
+    <Content Include="assets\images\airline\LO.png" />
+    <Content Include="assets\images\airline\LS.png" />
+    <Content Include="assets\images\airline\LU.png" />
+    <Content Include="assets\images\airline\LX.png" />
+    <Content Include="assets\images\airline\LY.png" />
+    <Content Include="assets\images\airline\MA.png" />
+    <Content Include="assets\images\airline\MD.png" />
+    <Content Include="assets\images\airline\MDV.png" />
+    <Content Include="assets\images\airline\ME.png" />
+    <Content Include="assets\images\airline\MH.png" />
+    <Content Include="assets\images\airline\MI.png" />
+    <Content Include="assets\images\airline\MK.png" />
+    <Content Include="assets\images\airline\MM.png" />
+    <Content Include="assets\images\airline\MS.png" />
+    <Content Include="assets\images\airline\MT.png" />
+    <Content Include="assets\images\airline\MU.png" />
+    <Content Include="assets\images\airline\NA.png" />
+    <Content Include="assets\images\airline\NH.png" />
+    <Content Include="assets\images\airline\NK.png" />
+    <Content Include="assets\images\airline\NN.png" />
+    <Content Include="assets\images\airline\noimage.png" />
+    <Content Include="assets\images\airline\NX.png" />
+    <Content Include="assets\images\airline\NZ.png" />
+    <Content Include="assets\images\airline\OA.png" />
+    <Content Include="assets\images\airline\OG.png" />
+    <Content Include="assets\images\airline\OHY.png" />
+    <Content Include="assets\images\airline\OK.png" />
+    <Content Include="assets\images\airline\OM.png" />
+    <Content Include="assets\images\airline\ONX.png" />
+    <Content Include="assets\images\airline\OR.png" />
+    <Content Include="assets\images\airline\ORB.png" />
+    <Content Include="assets\images\airline\OS.png" />
+    <Content Include="assets\images\airline\OTT.png" />
+    <Content Include="assets\images\airline\OU.png" />
+    <Content Include="assets\images\airline\OV.png" />
+    <Content Include="assets\images\airline\OZ.png" />
+    <Content Include="assets\images\airline\PC.png" />
+    <Content Include="assets\images\airline\PD.png" />
+    <Content Include="assets\images\airline\PG.png" />
+    <Content Include="assets\images\airline\PK.png" />
+    <Content Include="assets\images\airline\PR.png" />
+    <Content Include="assets\images\airline\PS.png" />
+    <Content Include="assets\images\airline\QC.png" />
+    <Content Include="assets\images\airline\QF.png" />
+    <Content Include="assets\images\airline\QR.png" />
+    <Content Include="assets\images\airline\QS.png" />
+    <Content Include="assets\images\airline\QX.png" />
+    <Content Include="assets\images\airline\RB.png" />
+    <Content Include="assets\images\airline\RE.png" />
+    <Content Include="assets\images\airline\RG.png" />
+    <Content Include="assets\images\airline\RI.png" />
+    <Content Include="assets\images\airline\RJ.png" />
+    <Content Include="assets\images\airline\RO.png" />
+    <Content Include="assets\images\airline\S7.png" />
+    <Content Include="assets\images\airline\SA.png" />
+    <Content Include="assets\images\airline\SC.png" />
+    <Content Include="assets\images\airline\SD.png" />
+    <Content Include="assets\images\airline\SI.png" />
+    <Content Include="assets\images\airline\SK.png" />
+    <Content Include="assets\images\airline\SN.png" />
+    <Content Include="assets\images\airline\SQ.png" />
+    <Content Include="assets\images\airline\SS.png" />
+    <Content Include="assets\images\airline\ST.png" />
+    <Content Include="assets\images\airline\SU.png" />
+    <Content Include="assets\images\airline\SV.png" />
+    <Content Include="assets\images\airline\SX.png" />
+    <Content Include="assets\images\airline\SY.png" />
+    <Content Include="assets\images\airline\SZ.png" />
+    <Content Include="assets\images\airline\T9.png" />
+    <Content Include="assets\images\airline\TCX.png" />
+    <Content Include="assets\images\airline\TF.png" />
+    <Content Include="assets\images\airline\TG.png" />
+    <Content Include="assets\images\airline\TI.png" />
+    <Content Include="assets\images\airline\TK.png" />
+    <Content Include="assets\images\airline\TO.png" />
+    <Content Include="assets\images\airline\TP.png" />
+    <Content Include="assets\images\airline\TR.png" />
+    <Content Include="assets\images\airline\TRN.png" />
+    <Content Include="assets\images\airline\TS.png" />
+    <Content Include="assets\images\airline\TT.png" />
+    <Content Include="assets\images\airline\TU.png" />
+    <Content Include="assets\images\airline\TWI.png" />
+    <Content Include="assets\images\airline\TX.png" />
+    <Content Include="assets\images\airline\TZ.png" />
+    <Content Include="assets\images\airline\U2.png" />
+    <Content Include="assets\images\airline\U6.png" />
+    <Content Include="assets\images\airline\U8.png" />
+    <Content Include="assets\images\airline\U9.png" />
+    <Content Include="assets\images\airline\UA.png" />
+    <Content Include="assets\images\airline\UL.png" />
+    <Content Include="assets\images\airline\UN.png" />
+    <Content Include="assets\images\airline\US.png" />
+    <Content Include="assets\images\airline\UT.png" />
+    <Content Include="assets\images\airline\UU.png" />
+    <Content Include="assets\images\airline\UX.png" />
+    <Content Include="assets\images\airline\V3.png" />
+    <Content Include="assets\images\airline\V7.png" />
+    <Content Include="assets\images\airline\VA.png" />
+    <Content Include="assets\images\airline\VF.png" />
+    <Content Include="assets\images\airline\VJ.png" />
+    <Content Include="assets\images\airline\VN.png" />
+    <Content Include="assets\images\airline\VO.png" />
+    <Content Include="assets\images\airline\VS.png" />
+    <Content Include="assets\images\airline\VT.png" />
+    <Content Include="assets\images\airline\VV.png" />
+    <Content Include="assets\images\airline\VX.png" />
+    <Content Include="assets\images\airline\VY.png" />
+    <Content Include="assets\images\airline\W2.png" />
+    <Content Include="assets\images\airline\W6.png" />
+    <Content Include="assets\images\airline\W7.png" />
+    <Content Include="assets\images\airline\WB.png" />
+    <Content Include="assets\images\airline\WK.png" />
+    <Content Include="assets\images\airline\WN.png" />
+    <Content Include="assets\images\airline\WS.png" />
+    <Content Include="assets\images\airline\WU.png" />
+    <Content Include="assets\images\airline\WW.png" />
+    <Content Include="assets\images\airline\WX.png" />
+    <Content Include="assets\images\airline\WY.png" />
+    <Content Include="assets\images\airline\WZ.png" />
+    <Content Include="assets\images\airline\X3.png" />
+    <Content Include="assets\images\airline\X9.png" />
+    <Content Include="assets\images\airline\XG.png" />
+    <Content Include="assets\images\airline\XK.png" />
+    <Content Include="assets\images\airline\XLF.png" />
+    <Content Include="assets\images\airline\XQ.png" />
+    <Content Include="assets\images\airline\Y4.png" />
+    <Content Include="assets\images\airline\YB.png" />
+    <Content Include="assets\images\airline\YK.png" />
+    <Content Include="assets\images\airline\YM.png" />
+    <Content Include="assets\images\airline\YO.png" />
+    <Content Include="assets\images\airline\YW.png" />
+    <Content Include="assets\images\airline\Z4.png" />
+    <Content Include="assets\images\airline\Z6.png" />
+    <Content Include="assets\images\airline\ZB.png" />
+    <Content Include="assets\images\airline\ZH.png" />
+    <Content Include="assets\images\airline\ZI.png" />
+    <Content Include="assets\images\airline\ZL.png" />
+    <Content Include="assets\images\airline\ZM.png" />
+    <Content Include="assets\images\airline\ZV.png" />
+    <Content Include="assets\images\airline\ZY.png" />
+    <Content Include="assets\images\bg-6.jpg" />
+    <Content Include="assets\images\bg-image.jpg" />
+    <Content Include="assets\images\bg-image10.jpg" />
+    <Content Include="assets\images\bilettab.jpg" />
+    <Content Include="assets\images\card\card.jpg" />
+    <Content Include="assets\images\bayrak.png" />
+    <Content Include="assets\images\home.jpg" />
+    <Content Include="assets\images\home2.jpg" />
+    <Content Include="assets\images\location\tour1.jpg" />
+    <Content Include="assets\images\offer1.jpg" />
+    <Content Include="assets\images\offer2.jpg" />
+    <Content Include="assets\images\offer3.jpg" />
+    <Content Include="assets\images\offer4.jpg" />
+    <Content Include="assets\images\partner\3docean.png" />
+    <Content Include="assets\images\partner\graphicriver.png" />
+    <Content Include="assets\images\partner\photodune.png" />
+    <Content Include="assets\images\partner\themeforest.png" />
+    <Content Include="assets\images\partner\videohive.png" />
+    <Content Include="assets\images\slide.jpg" />
+    <Content Include="assets\images\slide2.jpg" />
+    <Content Include="assets\images\splash\loading.gif" />
+    <Content Include="assets\images\splash\loading2.gif" />
+    <Content Include="assets\images\tabarr.jpg" />
+    <Content Include="assets\images\tabright.jpg" />
+    <Content Include="assets\images\thumb.jpg" />
+    <Content Include="assets\images\tour1.jpg" />
+    <Content Include="assets\images\user.jpg" />
+    <Content Include="assets\js\bootstrap-select.min.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\datepicker-tr.js" />
+    <Content Include="assets\js\jquery-ui.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jquery.showLoading.min.js" />
+    <Content Include="assets\js\js.js" />
+    <Content Include="assets\js\moment.js" />
+    <Content Include="assets\js\page-op.js" />
+    <Content Include="assets\js\respond.js" />
+    <Content Include="assets\plugins\jquery.countdown.min.js" />
+    <Content Include="assets\plugins\jquery.flexslider-min.js" />
+    <Content Include="assets\plugins\jquery.magnific-popup.min.js" />
+    <Content Include="assets\plugins\jquery.plugin.min.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\bindings\inputmask.binding.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\dependencyLibs\inputmask.dependencyLib.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\global\document.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\global\window.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\inputmask.date.extensions.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\inputmask.extensions.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\inputmask.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\inputmask.numeric.extensions.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\inputmask.phone.extensions.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\jquery.inputmask.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone-be.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone-ca.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone-hu.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone-it.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone-mx.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone-nl.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone-ru.js" />
+    <Content Include="assets\plugins\mask\dist\inputmask\phone-codes\phone.js" />
+    <Content Include="assets\plugins\mask\dist\jquery.inputmask.bundle.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\bindings\inputmask.binding.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\dependencyLibs\inputmask.dependencyLib.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\global\document.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\global\window.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\inputmask.date.extensions.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\inputmask.extensions.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\inputmask.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\inputmask.numeric.extensions.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\inputmask.phone.extensions.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\jquery.inputmask.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone-be.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone-ca.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone-hu.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone-it.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone-mx.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone-nl.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone-ru.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\inputmask\phone-codes\phone.min.js" />
+    <Content Include="assets\plugins\mask\dist\min\jquery.inputmask.bundle.min.js" />
+    <Content Include="assets\plugins\mask\js\bindings\inputmask.binding.js" />
+    <Content Include="assets\plugins\mask\js\dependencyLibs\inputmask.dependencyLib.jqlite.js" />
+    <Content Include="assets\plugins\mask\js\dependencyLibs\inputmask.dependencyLib.jquery.js" />
+    <Content Include="assets\plugins\mask\js\dependencyLibs\inputmask.dependencyLib.js" />
+    <Content Include="assets\plugins\mask\js\global\document.js" />
+    <Content Include="assets\plugins\mask\js\global\window.js" />
+    <Content Include="assets\plugins\mask\js\inputmask.date.extensions.js" />
+    <Content Include="assets\plugins\mask\js\inputmask.extensions.js" />
+    <Content Include="assets\plugins\mask\js\inputmask.js" />
+    <Content Include="assets\plugins\mask\js\inputmask.numeric.extensions.js" />
+    <Content Include="assets\plugins\mask\js\inputmask.phone.extensions.js" />
+    <Content Include="assets\plugins\mask\js\jquery.inputmask.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone-be.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone-ca.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone-hu.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone-it.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone-mx.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone-nl.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone-ru.js" />
+    <Content Include="assets\plugins\mask\js\phone-codes\phone.js" />
+    <Content Include="assets\plugins\mask\misc\phone-us.js" />
+    <Content Include="assets\plugins\mask\nuspecs\Readme.txt" />
+    <Content Include="assets\plugins\mask\qunit\index.js" />
+    <Content Include="assets\plugins\mask\qunit\prototypeExtensions.js" />
+    <Content Include="assets\plugins\mask\qunit\qunit.html" />
+    <Content Include="assets\plugins\mask\qunit\simulator.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_alternations.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_attributes.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_base.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_date.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_dynamic.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_escape.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_formatvalidate.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_initialvalue.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_inputeventonly.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_ip.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_jitmasking.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_jquery_inputmask.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_keepStatic.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_multi.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_numeric.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_numericinput.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_option.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_optional.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_paste.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_phone.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_phonebe.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_phonemx.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_phonenl.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_phoneru.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_phone_world.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_regex.js" />
+    <Content Include="assets\plugins\mask\qunit\tests_setvalue.js" />
+    <Content Include="assets\plugins\mask\qunit\webpack.config.js" />
+    <Content Include="assets\plugins\owl.carousel.min.js" />
+    <Content Include="assets\plugins\supersized.3.1.3.min.js" />
+    <Content Include="assets\plugins\wow.min.js" />
+    <Content Include="flightSearch.aspx" />
+    <Content Include="pageScripts\bilet.css" />
+    <Content Include="pageScripts\flightSearch.js" />
+    <Content Include="packages.config" />
+    <Content Include="assets\plugins\mask\nuspecs\Inputmask.nuspec" />
+    <Content Include="assets\plugins\mask\nuspecs\jquery.inputmask.nuspec" />
+    <Content Include="pageScripts\inputMask\.editorconfig" />
+    <Content Include="pageScripts\inputMask\.eslintrc" />
+    <Content Include="pageScripts\inputMask\.gitattributes" />
+    <Content Include="pageScripts\inputMask\.gitignore" />
+    <Content Include="pageScripts\inputMask\bower.json" />
+    <Content Include="pageScripts\inputMask\CHANGELOG.md" />
+    <Content Include="pageScripts\inputMask\component.json" />
+    <Content Include="pageScripts\inputMask\composer.json" />
+    <Content Include="pageScripts\inputMask\nuspecs\Inputmask.nuspec" />
+    <Content Include="pageScripts\inputMask\nuspecs\jquery.inputmask.nuspec" />
+    <Content Include="pageScripts\inputMask\package-lock.json" />
+    <Content Include="pageScripts\inputMask\package.json" />
+    <Content Include="pageScripts\inputMask\README.md" />
+    <Content Include="pageScripts\inputMask\README_android.md" />
+    <Content Include="pageScripts\inputMask\README_date.md" />
+    <Content Include="pageScripts\inputMask\README_numeric.md" />
+    <Content Include="pageScripts\inputMask\README_other.md" />
+    <Content Include="pageScripts\inputMask\README_phone.md" />
+    <Content Include="Admin\lib\elfinder\Changelog" />
+    <Content Include="Admin\lib\elfinder\connectors\php\connector.php" />
+    <Content Include="Admin\lib\elfinder\connectors\php\elFinder.class.php" />
+    <Content Include="Admin\lib\elfinder\connectors\python\connector.py" />
+    <Content Include="Admin\lib\elfinder\connectors\python\elFinder.py" />
+    <Content Include="Admin\lib\elfinder\README" />
+    <Content Include="Admin\lib\elfinder\src\connectors\php\connector.php" />
+    <Content Include="Admin\lib\elfinder\src\connectors\php\elFinder.class.php" />
+    <Content Include="Admin\lib\elfinder\src\connectors\python\connector.py" />
+    <Content Include="Admin\lib\elfinder\src\connectors\python\elFinder.py" />
+    <Content Include="Admin\lib\elfinder\src\Makefile" />
+    <Content Include="Admin\lib\player\files\1.ogv" />
+    <Content Include="Admin\AdminMaster.Master" />
+    <Content Include="Admin\Upload.ashx" />
+    <Content Include="Admin\DocumentsScreenUpload.ashx" />
+    <Content Include="Admin2\Images\Thumbs.db" />
+    <Content Include="Admin2\Images\Web.config" />
+    <Content Include="Admin2\Scripts\Web.config" />
+    <Content Include="Admin2\Styles\Web.config" />
+    <Content Include="Admin2\AdminMaster.Master" />
+    <Content Include="Admin2\ckeditor\CHANGES.md" />
+    <Content Include="Admin2\ckeditor\LICENSE.md" />
+    <Content Include="Admin2\ckeditor\plugins\scayt\LICENSE.md" />
+    <Content Include="Admin2\ckeditor\plugins\scayt\README.md" />
+    <Content Include="Admin2\ckeditor\plugins\wsc\LICENSE.md" />
+    <Content Include="Admin2\ckeditor\plugins\wsc\README.md" />
+    <Content Include="Admin2\ckeditor\README.md" />
+    <Content Include="Admin2\ckeditor\samples\assets\posteddata.php" />
+    <Content Include="Admin2\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.fla" />
+    <Content Include="Admin2\ckeditor\samples\sample_posteddata.php" />
+    <Content Include="Admin2\ckeditor\skins\moono\readme.md" />
+    <Content Include="Admin2\ImageUpload.ashx" />
+    <None Include="Properties\PublishProfiles\birSifir.pubxml" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="pageScripts\inputMask\bundle.js" />
+    <Content Include="pageScripts\inputMask\css\inputmask.css" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\bindings\inputmask.binding.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\dependencyLibs\inputmask.dependencyLib.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\global\document.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\global\window.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\inputmask.date.extensions.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\inputmask.extensions.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\inputmask.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\inputmask.numeric.extensions.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\inputmask.phone.extensions.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\jquery.inputmask.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone-be.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone-ca.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone-hu.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone-it.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone-mx.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone-nl.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone-ru.js" />
+    <Content Include="pageScripts\inputMask\dist\inputmask\phone-codes\phone.js" />
+    <Content Include="pageScripts\inputMask\dist\jquery.inputmask.bundle.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\bindings\inputmask.binding.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\dependencyLibs\inputmask.dependencyLib.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\global\document.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\global\window.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\inputmask.date.extensions.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\inputmask.extensions.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\inputmask.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\inputmask.numeric.extensions.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\inputmask.phone.extensions.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\jquery.inputmask.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone-be.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone-ca.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone-hu.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone-it.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone-mx.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone-nl.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone-ru.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\inputmask\phone-codes\phone.min.js" />
+    <Content Include="pageScripts\inputMask\dist\min\jquery.inputmask.bundle.min.js" />
+    <Content Include="pageScripts\inputMask\Gruntfile.js" />
+    <Content Include="pageScripts\inputMask\index.html" />
+    <Content Include="pageScripts\inputMask\index.js" />
+    <Content Include="pageScripts\inputMask\js\bindings\inputmask.binding.js" />
+    <Content Include="pageScripts\inputMask\js\dependencyLibs\inputmask.dependencyLib.jqlite.js" />
+    <Content Include="pageScripts\inputMask\js\dependencyLibs\inputmask.dependencyLib.jquery.js" />
+    <Content Include="pageScripts\inputMask\js\dependencyLibs\inputmask.dependencyLib.js" />
+    <Content Include="pageScripts\inputMask\js\global\document.js" />
+    <Content Include="pageScripts\inputMask\js\global\window.js" />
+    <Content Include="pageScripts\inputMask\js\inputmask.date.extensions.js" />
+    <Content Include="pageScripts\inputMask\js\inputmask.extensions.js" />
+    <Content Include="pageScripts\inputMask\js\inputmask.js" />
+    <Content Include="pageScripts\inputMask\js\inputmask.numeric.extensions.js" />
+    <Content Include="pageScripts\inputMask\js\inputmask.phone.extensions.js" />
+    <Content Include="pageScripts\inputMask\js\jquery.inputmask.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone-be.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone-ca.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone-hu.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone-it.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone-mx.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone-nl.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone-ru.js" />
+    <Content Include="pageScripts\inputMask\js\phone-codes\phone.js" />
+    <Content Include="pageScripts\inputMask\karma.conf.js" />
+    <Content Include="pageScripts\inputMask\LICENSE.txt" />
+    <Content Include="pageScripts\inputMask\misc\phone-us.js" />
+    <Content Include="pageScripts\inputMask\nuspecs\Readme.txt" />
+    <Content Include="pageScripts\inputMask\qunit\index.js" />
+    <Content Include="pageScripts\inputMask\qunit\prototypeExtensions.js" />
+    <Content Include="pageScripts\inputMask\qunit\qunit.html" />
+    <Content Include="pageScripts\inputMask\qunit\simulator.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_alternations.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_attributes.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_base.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_date.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_dynamic.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_escape.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_formatvalidate.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_initialvalue.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_inputeventonly.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_ip.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_jitmasking.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_jquery_inputmask.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_keepStatic.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_multi.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_numeric.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_numericinput.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_option.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_optional.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_paste.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_phone.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_phonebe.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_phonemx.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_phonenl.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_phoneru.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_phone_world.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_regex.js" />
+    <Content Include="pageScripts\inputMask\qunit\tests_setvalue.js" />
+    <Content Include="pageScripts\inputMask\qunit\webpack.config.js" />
+    <Content Include="pageScripts\inputMask\webpack.config.js" />
+    <Content Include="pageScripts\inputMask\webpackbuild.config.js" />
+    <Content Include="pageScripts\newCss.css" />
+    <Content Include="pageScripts\satinal.css" />
+    <Content Include="pageScripts\satinAlKontrol.js" />
+    <Content Include="pageScripts\searchCookie.js" />
+    <Content Include="pageScripts\seferPage.js" />
+    <Content Include="pageScripts\showLoading.css" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Service References\birSifirServis\birSifirUcuzaUc.WebUI.birSifirServis.BirsifirResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\birSifirServis\Birsifir.wsdl" />
+    <Content Include="Service References\birSifirServis\birSifirUcuzaUc.WebUI.birSifirServis.ResultCreateTicked3D.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\birSifirServis\birSifirUcuzaUc.WebUI.birSifirServis.ResultDomesticFlightPrice.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\birSifirServis\birSifirUcuzaUc.WebUI.birSifirServis.ResultTicketInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\birSifirServis\configuration91.svcinfo" />
+    <None Include="Service References\birSifirServis\configuration.svcinfo" />
+    <None Include="Service References\birSifirServis\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Ucus\Bilet.aspx" />
+    <Content Include="Ucus\Makale.aspx" />
+    <Content Include="Ucus\Satis.aspx" />
+    <Content Include="Ucus\Seferler.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin2\AddArticle.aspx.cs">
+      <DependentUpon>AddArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin2\AddArticle.aspx.designer.cs">
+      <DependentUpon>AddArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin2\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin2\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin2\ArticleList.aspx.cs">
+      <DependentUpon>ArticleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin2\ArticleList.aspx.designer.cs">
+      <DependentUpon>ArticleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin2\ImageUpload.ashx.cs">
+      <DependentUpon>ImageUpload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin2\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin2\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\addArticle.aspx.cs">
+      <DependentUpon>addArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\addArticle.aspx.designer.cs">
+      <DependentUpon>addArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\articleList.aspx.cs">
+      <DependentUpon>articleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\articleList.aspx.designer.cs">
+      <DependentUpon>articleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DocumentsScreenUpload.ashx.cs">
+      <DependentUpon>DocumentsScreenUpload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload.ashx.cs">
+      <DependentUpon>Upload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="anaYapi.Master.cs">
+      <DependentUpon>anaYapi.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anaYapi.Master.designer.cs">
+      <DependentUpon>anaYapi.Master</DependentUpon>
+    </Compile>
+    <Compile Include="flightSearch.aspx.cs">
+      <DependentUpon>flightSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="flightSearch.aspx.designer.cs">
+      <DependentUpon>flightSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\birSifirServis\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Ucus\Bilet.aspx.cs">
+      <DependentUpon>Bilet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucus\Bilet.aspx.designer.cs">
+      <DependentUpon>Bilet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucus\Makale.aspx.cs">
+      <DependentUpon>Makale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucus\Makale.aspx.designer.cs">
+      <DependentUpon>Makale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucus\Satis.aspx.cs">
+      <DependentUpon>Satis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucus\Satis.aspx.designer.cs">
+      <DependentUpon>Satis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucus\Seferler.aspx.cs">
+      <DependentUpon>Seferler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucus\Seferler.aspx.designer.cs">
+      <DependentUpon>Seferler.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="anaYapi.Master" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\font-awesome\less\animated.less" />
+    <Content Include="assets\font-awesome\less\bordered-pulled.less" />
+    <Content Include="assets\font-awesome\less\core.less" />
+    <Content Include="assets\font-awesome\less\fixed-width.less" />
+    <Content Include="assets\font-awesome\less\font-awesome.less" />
+    <Content Include="assets\font-awesome\less\icons.less" />
+    <Content Include="assets\font-awesome\less\larger.less" />
+    <Content Include="assets\font-awesome\less\list.less" />
+    <Content Include="assets\font-awesome\less\mixins.less" />
+    <Content Include="assets\font-awesome\less\path.less" />
+    <Content Include="assets\font-awesome\less\rotated-flipped.less" />
+    <Content Include="assets\font-awesome\less\stacked.less" />
+    <Content Include="assets\font-awesome\less\variables.less" />
+    <Content Include="assets\font-awesome\scss\font-awesome.scss" />
+    <Content Include="assets\font-awesome\scss\_animated.scss" />
+    <Content Include="assets\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="assets\font-awesome\scss\_core.scss" />
+    <Content Include="assets\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="assets\font-awesome\scss\_icons.scss" />
+    <Content Include="assets\font-awesome\scss\_larger.scss" />
+    <Content Include="assets\font-awesome\scss\_list.scss" />
+    <Content Include="assets\font-awesome\scss\_mixins.scss" />
+    <Content Include="assets\font-awesome\scss\_path.scss" />
+    <Content Include="assets\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="assets\font-awesome\scss\_stacked.scss" />
+    <Content Include="assets\font-awesome\scss\_variables.scss" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\birSifirUcuzaUc.Data\birSifirUcuzaUc.Data.csproj">
+      <Project>{bf3b7568-ca58-42f8-841c-44bc888c5da5}</Project>
+      <Name>birSifirUcuzaUc.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\birSifirServis\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\images\kapaklar\" />
+    <Folder Include="Admin\uploads\" />
+    <Folder Include="ArticleImages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8872</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1374/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

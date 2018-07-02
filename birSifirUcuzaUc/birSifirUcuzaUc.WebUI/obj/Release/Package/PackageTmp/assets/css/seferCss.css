@@ -1,0 +1,119 @@
+﻿/*.flight-list-v2 .stop-box {
+    padding: 5px 10px;
+    margin-left: 29%;
+    width: 86px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    z-index: -1;
+    margin-top: 7px;
+    text-align: center;
+}*/
+
+.stop-box span {
+    font-size: 13px;
+}
+
+.departure span {
+    font-size: 12px;
+}
+
+.destination span {
+    font-size: 12px;
+}
+
+.flyCode {
+    text-align: left;
+    font-size: 12px;
+}
+
+/*.flight-list-footer .fiyat-right span {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    display: block;
+    text-align: center;
+}*/
+
+.sec-button {
+    background: #f9676b;
+    float: right;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.col-md-7.col-sm-6.col-xs-6.sm-invisible {
+    margin-top: 11px;
+}
+
+.btnFiyat {
+    float: right;
+}
+
+.ucus-listesi-baslik {
+    margin: 40px 15px 0px 15px;
+    border: 1px solid #e6e6e6;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    color: #0a3152;
+    text-align: center;
+}
+
+.sefer-degistir-gidis {
+    margin: -1px 15px 0px 15px;
+    border: 1px solid #e6e6e6;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    color: #f9676b;
+    background-color: #0a3152;
+    text-align: center;
+    display: none;
+}
+
+.sefer-degistir-donus {
+    margin: -1px 15px 0px 15px;
+    border: 1px solid #e6e6e6;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    color: #f9676b;
+    background-color: #0a3152;
+    text-align: center;
+    display: none;
+}
+
+.flight-list-main.Akt {
+    /*display: none;*/
+}
+
+.guest-select .sefer {
+    position: absolute;
+    top: 45px;
+    /*left: 0px;*/
+    width: 160px;
+    height: 277px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background-color: #fff;
+    user-select: none;
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .flyCode {
+        text-align: inherit;
+        font-size: 12px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
+}

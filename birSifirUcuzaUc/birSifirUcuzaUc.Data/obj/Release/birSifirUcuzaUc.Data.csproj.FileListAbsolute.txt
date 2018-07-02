@@ -1,0 +1,16 @@
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\birSifirUcuzaUc.Data.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\birSifirUcuzaUc.Data.pdb
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\FluentNHibernate.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\Iesi.Collections.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\NHibernate.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Release\birSifirUcuzaUc.Data.csprojResolveAssemblyReference.cache
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Release\birSifirUcuzaUc.Data.dll
+C:\Users\BirSifir-PC\documents\visual studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Release\birSifirUcuzaUc.Data.pdb
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\birSifirUcuzaUc.Data.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\birSifirUcuzaUc.Data.pdb
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\FluentNHibernate.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\Iesi.Collections.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Release\NHibernate.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Release\birSifirUcuzaUc.Data.csprojResolveAssemblyReference.cache
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Release\birSifirUcuzaUc.Data.dll
+C:\Users\HoMe\Documents\Visual Studio 2012\Projects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Release\birSifirUcuzaUc.Data.pdb

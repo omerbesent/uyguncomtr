@@ -1,0 +1,1933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\BirSifir-PC\Desktop\birSifir_PUBLISH</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="anaYapi.Master">
+      <publishTime>05/10/2018 17:07:22</publishTime>
+    </File>
+    <File Include="assets/css/animate.min.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap-select.min.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>05/09/2018 13:45:53</publishTime>
+    </File>
+    <File Include="assets/css/color/blue.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/color/brown.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/color/green.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/color/light-green.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/color/orange.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/color/purple.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/color/yellow.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/flexslider.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/jquery-ui.min.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/light.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/magnific-popup.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/owl-carousel-theme.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/owl.carousel.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/css/prepareCss.css">
+      <publishTime>02/13/2018 19:26:44</publishTime>
+    </File>
+    <File Include="assets/css/seferCss.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="assets/css/style.css">
+      <publishTime>05/06/2018 03:08:53</publishTime>
+    </File>
+    <File Include="assets/font-awesome/css/font-awesome.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/css/font-awesome.min.css">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/animated.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/bordered-pulled.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/core.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/fixed-width.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/font-awesome.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/icons.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/larger.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/list.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/mixins.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/path.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/rotated-flipped.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/stacked.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/variables.less">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/font-awesome.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_animated.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_core.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_fixed-width.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_icons.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_larger.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_list.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_mixins.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_path.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_stacked.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_variables.scss">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/airline-icon.png">
+      <publishTime>04/19/2018 17:07:52</publishTime>
+    </File>
+    <File Include="assets/images/airline/0B.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/2M.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/3K.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/3L.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/3O.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/4O.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/4T.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/4U.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/5K.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/6R.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/7K.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/7W.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/8A.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/8P.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/8Q.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/8U.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/9B.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/9D.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/9E.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/9U.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/9W.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/A3.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/A5.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/A9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AC.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AF.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AH.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/airline.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/airline/airline.png">
+      <publishTime>02/12/2018 04:48:45</publishTime>
+    </File>
+    <File Include="assets/images/airline/AJ.png">
+      <publishTime>02/13/2018 21:40:50</publishTime>
+    </File>
+    <File Include="assets/images/airline/AJA.png">
+      <publishTime>02/13/2018 21:40:50</publishTime>
+    </File>
+    <File Include="assets/images/airline/AM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AN.png">
+      <publishTime>02/13/2018 21:39:59</publishTime>
+    </File>
+    <File Include="assets/images/airline/AP.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/AZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/B2.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/B6.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BD.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BE.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BIE.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BJ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BUDO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/BY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CAI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CD.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CJ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CND.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CRL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CT.png">
+      <publishTime>05/02/2018 20:55:39</publishTime>
+    </File>
+    <File Include="assets/images/airline/CX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/CZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DE.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/DY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/E5.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ED.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/EI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/EK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/EN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ET.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/eu-icon-s5e0aaa2631.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/EW.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/EY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/F7.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/F9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FH.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FHE.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FHY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FPO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/FZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/G3.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/G4.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/G9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/GA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/GF.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/GHY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/GK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/GW.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/GXL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/H3.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/H5.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/H9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HQ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HRM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/HY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/I2.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/I9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/IB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/IDO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/IG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/IQ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/IR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/IZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/J2.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JAF.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JC.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JE.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JJ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JP.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JQ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/JU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/K2.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KC.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KD.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KE.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KHO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KQ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/KU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/L9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LC.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LH.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/LY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MD.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MDV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ME.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MH.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/MU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/NA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/NH.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/NK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/NN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/noimage.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/NX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/NZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OHY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ONX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ORB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OTT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/OZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/PC.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/PD.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/PG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/PK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/PR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/PS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/QC.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/QF.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/QR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/QS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/QX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/RB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/RE.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/RG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/RI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/RJ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/RO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/S7.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SC.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SD.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SQ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ST.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/SZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/T9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TCX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TF.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TP.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TR.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TRN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TWI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/TZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/U2.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/U6.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/U8.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/U9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/UA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/UL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/UN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/US.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/UT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/UU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/UX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/V3.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/V7.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VA.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VF.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VJ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VS.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VT.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/VY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/W2.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/W6.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/W7.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WN.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WU.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WW.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WX.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/WZ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/X3.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/X9.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/XG.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/XK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/XLF.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/XQ.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/Y4.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/YB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/YK.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/YM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/YO.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/YW.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/Z4.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/Z6.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ZB.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ZH.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ZI.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ZL.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ZM.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ZV.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/airline/ZY.png">
+      <publishTime>02/12/2018 05:11:20</publishTime>
+    </File>
+    <File Include="assets/images/bayrak.png">
+      <publishTime>04/20/2018 00:28:55</publishTime>
+    </File>
+    <File Include="assets/images/bg-image.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/bg-image10.jpg">
+      <publishTime>02/04/2018 02:37:34</publishTime>
+    </File>
+    <File Include="assets/images/card/card.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/home.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/home2.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/location/tour1.jpg">
+      <publishTime>05/06/2018 05:33:48</publishTime>
+    </File>
+    <File Include="assets/images/offer1.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/offer2.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/offer3.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/offer4.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/partner/3docean.png">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/partner/graphicriver.png">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/partner/photodune.png">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/partner/themeforest.png">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/partner/videohive.png">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/slide.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/slide2.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/thumb.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/tour1.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/images/user.jpg">
+      <publishTime>02/04/2018 02:25:38</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap-select.min.js">
+      <publishTime>05/09/2018 20:02:20</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>05/09/2018 20:02:20</publishTime>
+    </File>
+    <File Include="assets/js/datepicker-tr.js">
+      <publishTime>05/09/2018 20:44:36</publishTime>
+    </File>
+    <File Include="assets/js/jquery-ui.min.js">
+      <publishTime>05/09/2018 20:02:20</publishTime>
+    </File>
+    <File Include="assets/js/jquery.js">
+      <publishTime>05/09/2018 20:02:20</publishTime>
+    </File>
+    <File Include="assets/js/js.js">
+      <publishTime>05/10/2018 16:43:27</publishTime>
+    </File>
+    <File Include="assets/js/list/cbpViewModeSwitch.js">
+      <publishTime>05/05/2018 23:00:36</publishTime>
+    </File>
+    <File Include="assets/js/list/classie.js">
+      <publishTime>05/05/2018 23:00:36</publishTime>
+    </File>
+    <File Include="assets/js/list/jquery.mixitup.js">
+      <publishTime>05/05/2018 23:00:36</publishTime>
+    </File>
+    <File Include="assets/js/list/jquery.mixitup.min.js">
+      <publishTime>05/05/2018 23:00:36</publishTime>
+    </File>
+    <File Include="assets/js/list/modernizr.custom.js">
+      <publishTime>05/05/2018 23:00:36</publishTime>
+    </File>
+    <File Include="assets/js/moment.js">
+      <publishTime>04/22/2018 14:01:19</publishTime>
+    </File>
+    <File Include="assets/js/respond.js">
+      <publishTime>05/09/2018 20:02:28</publishTime>
+    </File>
+    <File Include="assets/plugins/jquery.countdown.min.js">
+      <publishTime>05/09/2018 20:00:15</publishTime>
+    </File>
+    <File Include="assets/plugins/jquery.flexslider-min.js">
+      <publishTime>05/09/2018 20:00:15</publishTime>
+    </File>
+    <File Include="assets/plugins/jquery.magnific-popup.min.js">
+      <publishTime>05/09/2018 20:00:15</publishTime>
+    </File>
+    <File Include="assets/plugins/jquery.plugin.min.js">
+      <publishTime>05/09/2018 20:00:15</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/bindings/inputmask.binding.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.jqlite.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.jquery.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/global/document.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/global/window.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/inputmask.date.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/inputmask.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/inputmask.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/inputmask.numeric.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/inputmask.phone.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/jquery.inputmask.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone-be.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone-ca.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone-hu.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone-it.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone-mx.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone-nl.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone-ru.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/inputmask/phone-codes/phone.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/jquery.inputmask.bundle.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/bindings/inputmask.binding.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.jqlite.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.jquery.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/global/document.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/global/window.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/inputmask.date.extensions.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/inputmask.extensions.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/inputmask.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/inputmask.numeric.extensions.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/inputmask.phone.extensions.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/jquery.inputmask.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone-be.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone-ca.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone-hu.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone-it.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone-mx.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone-nl.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone-ru.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/inputmask/phone-codes/phone.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/dist/min/jquery.inputmask.bundle.min.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/bindings/inputmask.binding.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/dependencyLibs/inputmask.dependencyLib.jqlite.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/dependencyLibs/inputmask.dependencyLib.jquery.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/dependencyLibs/inputmask.dependencyLib.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/global/document.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/global/window.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/inputmask.date.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/inputmask.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/inputmask.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/inputmask.numeric.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/inputmask.phone.extensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/jquery.inputmask.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone-be.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone-ca.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone-hu.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone-it.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone-mx.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone-nl.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone-ru.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/js/phone-codes/phone.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/misc/phone-us.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/nuspecs/Inputmask.nuspec">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/nuspecs/jquery.inputmask.nuspec">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/nuspecs/Readme.txt">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/index.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/prototypeExtensions.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/qunit.html">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/simulator.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_alternations.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_attributes.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_base.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_date.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_dynamic.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_escape.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_formatvalidate.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_initialvalue.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_inputeventonly.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_ip.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_jitmasking.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_jquery_inputmask.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_keepStatic.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_multi.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_numeric.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_numericinput.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_option.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_optional.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_paste.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_phone.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_phonebe.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_phonemx.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_phonenl.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_phoneru.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_phone_world.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_regex.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/tests_setvalue.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/mask/qunit/webpack.config.js">
+      <publishTime>05/10/2018 23:39:05</publishTime>
+    </File>
+    <File Include="assets/plugins/owl.carousel.min.js">
+      <publishTime>05/09/2018 20:00:15</publishTime>
+    </File>
+    <File Include="assets/plugins/supersized.3.1.3.min.js">
+      <publishTime>05/09/2018 20:00:15</publishTime>
+    </File>
+    <File Include="assets/plugins/wow.min.js">
+      <publishTime>05/09/2018 20:00:15</publishTime>
+    </File>
+    <File Include="bin/birSifirUcuzaUc.Data.dll">
+      <publishTime>05/21/2018 03:39:40</publishTime>
+    </File>
+    <File Include="bin/birSifirUcuzaUc.WebUI.dll">
+      <publishTime>05/21/2018 03:39:40</publishTime>
+    </File>
+    <File Include="bin/FluentNHibernate.dll">
+      <publishTime>10/09/2017 11:33:48</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.dll">
+      <publishTime>10/09/2017 11:33:48</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/17/2016 02:23:05</publishTime>
+    </File>
+    <File Include="bin/NHibernate.dll">
+      <publishTime>10/09/2017 11:33:48</publishTime>
+    </File>
+    <File Include="flightSearch.aspx">
+      <publishTime>05/10/2018 11:31:02</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/04/2018 02:52:30</publishTime>
+    </File>
+    <File Include="pageScripts/flightSearch.js">
+      <publishTime>05/07/2018 20:39:43</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/.editorconfig">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/.eslintrc">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/.gitattributes">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/.gitignore">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/bower.json">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/bundle.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/CHANGELOG.md">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/component.json">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/composer.json">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/css/inputmask.css">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/bindings/inputmask.binding.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.jqlite.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.jquery.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/global/document.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/global/window.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/inputmask.date.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/inputmask.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/inputmask.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/inputmask.numeric.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/inputmask.phone.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/jquery.inputmask.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone-be.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone-ca.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone-hu.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone-it.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone-mx.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone-nl.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone-ru.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/inputmask/phone-codes/phone.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/jquery.inputmask.bundle.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/bindings/inputmask.binding.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.jqlite.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.jquery.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/global/document.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/global/window.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/inputmask.date.extensions.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/inputmask.extensions.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/inputmask.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/inputmask.numeric.extensions.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/inputmask.phone.extensions.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/jquery.inputmask.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone-be.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone-ca.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone-hu.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone-it.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone-mx.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone-nl.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone-ru.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/inputmask/phone-codes/phone.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/dist/min/jquery.inputmask.bundle.min.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/Gruntfile.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/index.html">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/index.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/bindings/inputmask.binding.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/dependencyLibs/inputmask.dependencyLib.jqlite.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/dependencyLibs/inputmask.dependencyLib.jquery.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/dependencyLibs/inputmask.dependencyLib.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/global/document.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/global/window.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/inputmask.date.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/inputmask.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/inputmask.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/inputmask.numeric.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/inputmask.phone.extensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/jquery.inputmask.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone-be.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone-ca.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone-hu.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone-it.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone-mx.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone-nl.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone-ru.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/js/phone-codes/phone.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/karma.conf.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/LICENSE.txt">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/misc/phone-us.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/nuspecs/Inputmask.nuspec">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/nuspecs/jquery.inputmask.nuspec">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/nuspecs/Readme.txt">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/package-lock.json">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/package.json">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/index.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/prototypeExtensions.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/qunit.html">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/simulator.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_alternations.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_attributes.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_base.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_date.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_dynamic.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_escape.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_formatvalidate.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_initialvalue.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_inputeventonly.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_ip.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_jitmasking.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_jquery_inputmask.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_keepStatic.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_multi.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_numeric.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_numericinput.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_option.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_optional.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_paste.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_phone.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_phonebe.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_phonemx.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_phonenl.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_phoneru.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_phone_world.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_regex.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/tests_setvalue.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/qunit/webpack.config.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/README.md">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/README_android.md">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/README_date.md">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/README_numeric.md">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/README_other.md">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/README_phone.md">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/webpack.config.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/inputMask/webpackbuild.config.js">
+      <publishTime>05/11/2018 19:51:28</publishTime>
+    </File>
+    <File Include="pageScripts/newCss.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="pageScripts/satinal.css">
+      <publishTime>05/09/2018 12:06:40</publishTime>
+    </File>
+    <File Include="pageScripts/satinAlKontrol.js">
+      <publishTime>05/20/2018 17:46:50</publishTime>
+    </File>
+    <File Include="pageScripts/searchCookie.js">
+      <publishTime>04/30/2018 23:38:37</publishTime>
+    </File>
+    <File Include="pageScripts/seferPage.js">
+      <publishTime>05/06/2018 05:05:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>02/04/2018 02:52:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>02/04/2018 02:52:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>02/04/2018 02:52:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>02/04/2018 02:52:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>02/04/2018 02:52:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>02/04/2018 02:52:30</publishTime>
+    </File>
+    <File Include="Service References/birSifirServis/birSifirUcuzaUc.WebUI.birSifirServis.BirsifirResult.datasource">
+      <publishTime>05/08/2018 23:51:40</publishTime>
+    </File>
+    <File Include="Service References/birSifirServis/birSifirUcuzaUc.WebUI.birSifirServis.ResultCreateTicked3D.datasource">
+      <publishTime>05/08/2018 23:51:40</publishTime>
+    </File>
+    <File Include="Service References/birSifirServis/birSifirUcuzaUc.WebUI.birSifirServis.ResultDomesticFlightPrice.datasource">
+      <publishTime>05/08/2018 23:51:40</publishTime>
+    </File>
+    <File Include="Ucus/Satis.aspx">
+      <publishTime>05/20/2018 01:45:37</publishTime>
+    </File>
+    <File Include="Ucus/Seferler.aspx">
+      <publishTime>05/10/2018 17:06:35</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/09/2018 22:56:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,600 @@
+﻿html
+{
+    margin: 0px 0px 0px 0px;
+    background-color: #1f405c;
+}
+body
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    background-color: #1f405c;
+    color: #333333;
+    font-size: 11px;
+}
+a:link, a:visited
+{
+    color: #BD0000;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a:active
+{
+    color: #BD0000;
+}
+
+a img
+{
+    border: none;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    font-family: Trebuchet MS;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Trebuchet MS;
+}
+h1
+{
+    font-family: Trebuchet MS;
+    font-size: 22px;
+}
+h2
+{
+    font-family: Trebuchet MS;
+    font-size: 18px;
+}
+h3
+{
+    font-family: Trebuchet MS;
+    font-size: 16px;
+}
+h4
+{
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+h5
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+}
+h6
+{
+    font-family: Trebuchet MS;
+    font-size: 9px;
+}
+span
+{
+    font-family: Trebuchet MS;
+}
+fieldset
+{
+    border: solid 1px #7DB5EC;
+    border-radius: 10px 10px;
+    -moz-border-radius: 10px 10px;
+    -webkit-border-radius: 10px 10px;
+    padding: 10px;
+    margin: 10px;
+}
+legend
+{
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    color: #EBEBEB;
+}
+img
+{
+    cursor: pointer;
+}
+
+/* Layout    */
+
+
+#header
+{
+    width: 970px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#main
+{
+    width: 970px;
+    margin-left: 20px;
+    margin-top: 20px;
+    min-height: 250px;
+    clear: both;
+}
+#footer
+{
+    width: 930px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px 20px;
+    clear: both;
+    border-top: 1px dotted #CECECE;
+}
+
+#contentWrapper
+{
+    min-height: 450px;
+    padding: 10px;
+}
+
+
+#contentEffect
+{
+    width: 720px;
+    margin: 10px auto;
+    padding: 20px 20px; /*border: 1px solid #D2D2D2;*/ /*-moz-box-shadow: 0 0 30px #CCC;     -webkit-box-shadow: 0 0 30px #CCC;     box-shadow: 0 0 30px #CCC;*/
+    border-radius: 10px 10px;
+    -moz-border-radius: 10px 10px;
+    -webkit-border-radius: 10px 10px;
+    background: #000; /*IE*/
+    background: -webkit-gradient(linear, left top, left 15, from(#000000), color-stop(4%, #EEEEEE), to(#000000)); /*Others*/
+    background: -moz-linear-gradient(top, #000000, #EEEEEE 1px, #000 15px); /*Firefox*/
+}
+
+.footerLine, #footerLine
+{
+    line-height: 1px;
+    border: solid 1px #EBEBEB;
+    margin: 25px 25px 0px 25px;
+}
+/* Page Header */
+.pageHeader
+{
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    color: #EBEBEB;
+    width: 100%;
+    border-bottom: solid 1px #EBEBEB;
+    margin: 0px;
+}
+.pageTitle
+{
+    font-weight: bold;
+    padding: 2px 2px 2px 0px;
+    font-size: 14px;
+    font-family: Arial,Helvetica,Sans-Serif;
+}
+.pageInfo
+{
+    font-size: 11px;
+}
+/* Others */
+.txtbox
+{
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #D7D7D7;
+    font-size: 11px;
+    padding: 5px;
+}
+.txtbox:hover, .txtbox:focus
+{
+    /*border: 1px solid #525252;*/
+    -moz-box-shadow: 0 0 5px #FFDD00;
+    -webkit-box-shadow: 0 0 5px #FFDD00;
+    box-shadow: 0 0 5px #FFDD00;
+}
+.btn
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    background-color: #2B2B2B;
+    color: White;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 4px 4px 4px 4px;
+    border: solid 1px #2B2B2B;
+}
+.btn:hover
+{
+    background-color: #2F86CF;
+    color: White;
+    cursor: pointer; /*-moz-box-shadow: 0 0 15px #FFDD00;     -webkit-box-shadow: 0 0 15px #FFDD00;     box-shadow: 0 0 15px #FFDD00;*/
+    border: solid 1px #1376c9;
+}
+.rButton
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    color: #EBEBEB;
+    cursor: pointer;
+}
+.rButton:hover
+{
+    color: #FFDD00;
+    cursor: pointer;
+}
+.ddl
+{
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #D7D7D7;
+    font-size: 11px; /*margin: 0 0 2px;*/
+    padding: 5px;
+    color: #525252;
+}
+.ddl:hover
+{
+    /*border: 1px solid #9DD3F6;*/
+    -moz-box-shadow: 0 0 5px #FFDD00;
+    -webkit-box-shadow: 0 0 5px #FFDD00;
+    box-shadow: 0 0 5px #FFDD00;
+}
+.lbox
+{
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #D7D7D7;
+    font-size: 11px; /*margin: 0 0 2px;*/
+    padding: 2px;
+    color: #525252;
+}
+.lbox:hover
+{
+    /*border: 1px solid #9DD3F6;*/
+    -moz-box-shadow: 0 0 5px #FFDD00;
+    -webkit-box-shadow: 0 0 5px #FFDD00;
+    box-shadow: 0 0 5px #FFDD00;
+}
+.chk
+{
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #D7D7D7;
+    font-size: 11px;
+    margin: 0 0 2px;
+    padding: 2px;
+}
+.chk:hover
+{
+    border: 1px solid #9DD3F6;
+}
+.lblResultMessage
+{
+    font-size: 14px;
+    color: #FFDD00;
+}
+#footer a
+{
+    text-decoration: none;
+    padding: 5px;
+    color: #5A5A59;
+    font-size: 12px;
+    font-family: Trebuchet MS;
+}
+#footer a:hover
+{
+    /*color: #FF6200;*/
+    text-decoration: underline;
+}
+
+/* MANAGE */
+.btnManage
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #273270; /*#273270;*/
+    color: White;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+    border: solid 1px #273270;
+}
+.btnManage:hover
+{
+    /*background-color: #FFDD00;*/
+    color: #273270;
+    cursor: pointer; /*-moz-box-shadow: 0 0 15px #FFDD00;     -webkit-box-shadow: 0 0 15px #FFDD00;     box-shadow: 0 0 15px #FFDD00;*/
+    background-color: White; /*#2C62BA;*/
+    border: solid 1px #273270;
+}
+
+.ltErrorMsg
+{
+    color: #FFDD00;
+    font-size: 12px;
+}
+/* Excel Upload */
+.flupload
+{
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #000000;
+    font-size: 12px;
+    margin: 0 0 2px;
+    padding: 2px;
+}
+
+/* CSS 3.0 Styles */
+.DropShadowHover:hover
+{
+    box-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px #000000;
+}
+.DropShadow
+{
+    box-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px #000000;
+}
+.RoundedCorner
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Color Styles */
+
+.BGDarkRed
+{
+    background-color: #BD0000;
+    color: #FFFFFF;
+}
+
+.BGDeepPurple
+{
+    background-color: #732B73;
+    color: #FFFFFF;
+}
+
+.BGBlue
+{
+    background-color: #0077B7;
+    color: #FFFFFF;
+}
+
+.BGYellow
+{
+    background-color: #F3B700;
+    color: #FFFFFF;
+}
+
+.BGRed
+{
+    background-color: #E60000;
+    color: #FFFFFF;
+}
+
+.warning
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    color: #BD0000;
+}
+
+.upLoading
+{
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 7px 2px 2px 2px;
+}
+
+.hoverPointer
+{
+    cursor: pointer;
+}
+
+.emWarning
+{
+    color: #F80000;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+.copyrigt
+{
+    color: #CCC;
+    font-size: 10px;
+}
+.input1
+{
+    border: 1px #afb4c5 solid;
+    padding: 7px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    color: #666;
+}
+.input1:hover
+{
+    border: 1px #a5abc1 solid;
+    padding: 7px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    color: #666;
+    background-color: #e7ecff;
+}
+
+
+
+.table_title
+{
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+    padding-bottom: 4px;
+}
+
+#navcontainer
+{
+    width: 200px;
+}
+
+#navcontainer ul
+{
+    margin-left: 0;
+    padding-left: 10px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navtitle
+{
+    font-size: 14px;
+    display: block;
+    color: #369;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-shadow: 2px 2px 3px #fff;
+}
+
+#navcontainer a
+{
+    background-image: url(../Images/point_left.png);
+    background-repeat: no-repeat;
+    display: block;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    width: 210px;
+    border-bottom: 1px solid #eee;
+}
+
+#navcontainer a:link, #navlist a:visited
+{
+    color: #444;
+    text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+    color: #369;
+}
+
+
+
+
+/*Menu*/
+
+.menu
+{
+    border: none;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline;
+}
+.menu ul
+{
+    height: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li
+{
+    float: left;
+    padding: 0px;
+}
+.menu li a
+{
+   
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    line-height: 38px;
+    margin: 0px;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.menu li a:hover, .menu ul li:hover a
+{
+    background: #369 bottom center no-repeat;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu li ul
+{
+    background: #369;
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    width: 225px;
+    z-index: 200; /*top:1em; 		/*left:0;*/
+}
+.menu li:hover ul
+{
+    display: block;
+}
+.menu li li
+{
+    
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 225px;
+}
+.menu li:hover li a
+{
+    background: none;
+}
+.menu li ul a
+{
+    display: block;
+    height: 38px;
+    font-size: 12px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+}
+.menu li ul a:hover, .menu li ul li:hover a
+{
+    background: #19334a center left no-repeat;
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu p
+{
+    clear: left;
+}
+
+.TileBack
+{
+    background-image: url(../Images/top_back.png);
+}
+.Logo
+{
+    background-image: url(../Images/onexlogo.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 144px;
+}
+/*Menu Bitti*/

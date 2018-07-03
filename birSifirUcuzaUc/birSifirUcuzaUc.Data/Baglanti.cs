@@ -15,7 +15,8 @@ namespace birSifirUcuzaUc.Data
     {
         public static ISession OpenSession()
         {
-            string connectionString = @"server=.;database=birSifirUcuzaUc;uid=sa;password=123456a.A;";
+            //string connectionString = @"server=.;database=birSifirUcuzaUc;uid=sa;password=123456a.A;";
+            string connectionString = @"server=.;database=birSifirUcuzaUc;uid=sa;password=bilgiyon123*;";
             //string connectionString = @"server=hostsql1.isimtescil.net,1433;database=poyun-Cw_makine;uid=poyun-Cw_oyuncu;password=s1s2s3S4;";
             var sessionFactory = Fluently.Configure()
                  .Database(MsSqlConfiguration.MsSql2008

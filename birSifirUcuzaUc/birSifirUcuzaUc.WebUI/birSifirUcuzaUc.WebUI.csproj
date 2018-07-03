@@ -748,6 +748,7 @@
     <Content Include="assets\css\color\orange.css" />
     <Content Include="assets\css\color\purple.css" />
     <Content Include="assets\css\color\yellow.css" />
+    <Content Include="assets\css\CustomStyle.css" />
     <Content Include="assets\css\flexslider.css" />
     <Content Include="assets\css\jquery-ui.min.css" />
     <Content Include="assets\css\light.css" />

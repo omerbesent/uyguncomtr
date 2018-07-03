@@ -1,0 +1,120 @@
+﻿body {
+}
+
+/* Footer Bölümü Start  */
+.navbar-contact a {
+    margin: 0px 0 0 15px;
+}
+
+.main-footer-nav {
+    padding: 7px 0px;
+    font-size: 9pt;
+}
+
+.go-up {
+    top: -200%;
+}
+
+
+    .go-up a {
+        background-color: #f9676b;
+        padding-top: 5px;
+    }
+
+:after, :before {
+    color: white;
+    margin-left: 1px;
+}
+
+
+.main-footer .about-box h3 {
+    letter-spacing: 0px;
+    font-size: 13pt;
+}
+
+.main-footer .links h4 {
+    letter-spacing: 0px;
+    text-transform: initial;
+    font-size: 13pt;
+}
+
+.main-footer .contact-box h4 {
+    letter-spacing: 0px;
+    text-transform: initial;
+    font-size: 13pt;
+}
+
+
+
+.main-footer .about-box p {
+    font-size: 8pt;
+}
+
+.main-footer .links ul li {
+    font-size: 8pt;
+}
+
+
+
+
+.main-footer .contact-box p i {
+    border: 2px solid #bec4c8;
+    border-radius: 50%;
+    color: #f9676b;
+    display: inline-block;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px 5px;
+    width: 30px;
+}
+
+.main-footer .contact-box p span {
+    font-size: 8pt;
+}
+
+
+.main-footer-sub {
+    padding: 15px 0px;
+}
+
+.main-footer {
+    padding: 20px 0px;
+}
+/* Footer Bölümü End  */
+
+/* Makale Bölümü  Start */
+.col-grid .body {
+    padding: 10px 10px;
+}
+
+    .col-grid .body p {
+        margin: 0 0 0;
+    }
+
+.col-grid .back-line {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: initial;
+}
+
+    .col-grid .back-line:before {
+        left: 0;
+    }
+
+    .col-grid .back-line:after {
+        right: 0;
+    }
+
+.last-minute-deal {
+    padding: 0px 0px;
+}
+
+.col-grid .bottom a { 
+    padding: 8px 0; 
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+/* Makale Bölümü  End */

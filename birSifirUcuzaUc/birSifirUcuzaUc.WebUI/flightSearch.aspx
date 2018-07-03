@@ -198,7 +198,7 @@
 
                         <div class="clearfix"></div>
                         <div class="col-md-12 text-center search-col-padding">
-                            <button type="button" id="btnAirSearch" onclick="searchAir();" class="search-button btn transition-effect">..Uçuş Ara..</button>
+                            <button type="button" id="btnAirSearch" onclick="searchAir();" class="search-button btn transition-effect">Ucuz Uçuş Ara</button>
                         </div>
                         <div class="clearfix"></div>
 
@@ -218,119 +218,41 @@
                     <h4>DAHA FAZLA TASARRUF</h4>
                 </div>
                 <div class="owl-carousel" id="lastminute" clientidmode="Static" runat="server">
-                    <div class="col-grid">
-                        <div class="wrapper">
-                            <img src="assets/images/location/tour1.jpg" alt="cruise">
-                            <h5 class="location">TÜRKİYE</h5>
-                        </div>
-                        <div class="body text-center">
-                            <h5>Roound Trip</h5>
-                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                            <p class="back-line">Starting From</p>
-                            <h3>$199</h3>
-                            <p class="text-sm">Thu Aug 12 - Sun 14 Aug</p>
-                        </div>
-                        <div class="bottom">
-                            <a href="#">VIEW DETAIL</a>
-                        </div>
-                    </div>
+                  
                     <div class="col-grid">
                         <div class="wrapper">
                             <img src="assets/images/location/1.jpg" alt="cruise">
-                            <h5 class="location">İTALYA</h5>
+                            <h5 class="location">ANKARA</h5>
                         </div>
                         <div class="body text-center">
-                            <h5>Tek Yön</h5>
-                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                            <p class="back-line">Başlayan Fiyatla</p>
-                            <h3>5000 TL</h3>
-                            <p class="text-sm">3 Haziran Perşembe</p>
+                          <%--  <h5>Tek Yön</h5>--%>
+                            <%--<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>--%>
+                            <p class="back-line">59 TL'den başlayan</p>
+                            <%--<h3>5000 TL</h3>--%>
+                            <%--<p class="text-sm">3 Haziran Perşembe</p>--%>
                         </div>
                         <div class="bottom">
                             <a href="#">Detay Göster</a>
                         </div>
                     </div>
-                    <div class="col-grid">
+                  
+                    
+                     <div class="col-grid">
                         <div class="wrapper">
-                            <img src="assets/images/location/tour1.jpg" alt="cruise">
-                            <h5 class="location">BANGKOK</h5>
+                            <img src="assets/images/location/1.jpg" alt="cruise">
+                            <h5 class="location">GAZİANTEP</h5>
                         </div>
                         <div class="body text-center">
-                            <h5>One Way Trip</h5>
-                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                            <p class="back-line">Starting From</p>
-                            <h3>$299</h3>
-                            <p class="text-sm">Thu Aug 12 - Sun 14 Aug</p>
+                          <%--  <h5>Tek Yön</h5>--%>
+                            <%--<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>--%>
+                            <p class="back-line">59 TL'den başlayan</p>
+                            <%--<h3>5000 TL</h3>--%>
+                            <%--<p class="text-sm">3 Haziran Perşembe</p>--%>
                         </div>
                         <div class="bottom">
-                            <a href="#">VIEW DETAIL</a>
+                            <a href="#">Detay Göster</a>
                         </div>
                     </div>
-                    <div class="col-grid">
-                        <div class="wrapper">
-                            <img src="assets/images/location/tour1.jpg" alt="cruise">
-                            <h5 class="location">DUBAI</h5>
-                        </div>
-                        <div class="body text-center">
-                            <h5>One Way Trip</h5>
-                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                            <p class="back-line">Starting From</p>
-                            <h3>$399</h3>
-                            <p class="text-sm">Thu Aug 12 - Sun 14 Aug</p>
-                        </div>
-                        <div class="bottom">
-                            <a href="#">VIEW DETAIL</a>
-                        </div>
-                    </div>
-                    <div class="col-grid">
-                        <div class="wrapper">
-                            <img src="assets/images/location/tour1.jpg" alt="cruise">
-                            <h5 class="location">ITALY</h5>
-                        </div>
-                        <div class="body text-center">
-                            <h5>Round Trip</h5>
-                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                            <p class="back-line">Starting From</p>
-                            <h3>$399</h3>
-                            <p class="text-sm">Thu Aug 12 - Sun 14 Aug</p>
-                        </div>
-                        <div class="bottom">
-                            <a href="#">VIEW DETAIL</a>
-                        </div>
-                    </div>
-                    <div class="col-grid">
-                        <div class="wrapper">
-                            <img src="assets/images/location/tour1.jpg" alt="cruise">
-                            <h5 class="location">PARIS</h5>
-                        </div>
-                        <div class="body text-center">
-                            <h5>One Way Trip</h5>
-                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                            <p class="back-line">Starting From</p>
-                            <h3>$199</h3>
-                            <p class="text-sm">Thu Aug 12 - Sun 14 Aug</p>
-                        </div>
-                        <div class="bottom">
-                            <a href="#">VIEW DETAIL</a>
-                        </div>
-                    </div>
-                    <div class="col-grid">
-                        <div class="wrapper">
-                            <img src="assets/images/location/tour1.jpg" alt="cruise">
-                            <h5 class="location">BANGKOK</h5>
-                        </div>
-                        <div class="body text-center">
-                            <h5>Round Trip</h5>
-                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                            <p class="back-line">Starting From</p>
-                            <h3>$299</h3>
-                            <p class="text-sm">Thu Aug 12 - Sun 14 Aug</p>
-                        </div>
-                        <div class="bottom">
-                            <a href="#">VIEW DETAIL</a>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>
@@ -339,7 +261,7 @@
     <!-- END: LAST MINUTE DEALS -->
 
     <!-- BEGIN: TOP DESTINATION SECTION -->
-    <section id="top-flight-row">
+    <%--<section id="top-flight-row">
         <div class="row top-flight">
             <div class="container">
                 <div class="section-title text-center">
@@ -444,10 +366,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
     <!-- END: TOP DESTINATION SECTION -->
     <!-- START: HOT  DEALS -->
-    <section>
+    <%--<section>
         <div class="row hot-deals">
             <div class="container clear-padding">
                 <div class="section-title text-center">
@@ -668,7 +590,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
     <!-- END: HOT DEALS -->
    
 </asp:Content>

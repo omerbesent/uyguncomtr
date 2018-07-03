@@ -20,13 +20,13 @@ namespace birSifirUcuzaUc.WebUI
         {
             try
             {
-                var makleler = rm.Makaleler();
-                foreach (var item in makleler)
-                {
-                    string sonuc = makaleDesignMetot(item.illerKapakResim, item.illerNereyeAdi, item.illerYon, item.illerBaslik, item.illerFiyat, item.illerTarih, item.illerID);
-                    sb.Append(sonuc);
-                }
-                lastminute.InnerHtml = sb.ToString();
+                //var makleler = rm.Makaleler();
+                //foreach (var item in makleler)
+                //{
+                //    string sonuc = makaleDesignMetot(item.illerKapakResim, item.illerNereyeAdi, item.illerYon, item.illerBaslik, item.illerFiyat, item.illerTarih, item.illerID);
+                //    sb.Append(sonuc);
+                //}
+                //lastminute.InnerHtml = sb.ToString();
             }
             catch (Exception)
             {

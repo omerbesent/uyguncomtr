@@ -29,3 +29,14 @@ D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.D
 D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.csprojResolveAssemblyReference.cache
 D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.dll
 D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.pdb
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.dll.config
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.WebUI.pdb
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\FluentNHibernate.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\NHibernate.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\Iesi.Collections.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\bin\birSifirUcuzaUc.Data.pdb
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.WebUI\obj\Debug\birSifirUcuzaUc.WebUI.pdb

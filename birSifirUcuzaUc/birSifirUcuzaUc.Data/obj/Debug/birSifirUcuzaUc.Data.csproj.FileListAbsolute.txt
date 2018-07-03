@@ -13,3 +13,8 @@ D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuz
 D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.csprojResolveAssemblyReference.cache
 D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.dll
 D:\Besent.VSProjects\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.pdb
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.Data\bin\Debug\birSifirUcuzaUc.Data.pdb
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.csprojResolveAssemblyReference.cache
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.dll
+C:\Users\BILGIYONUSER\Documents\GitHub\uyguncomtr\birSifirUcuzaUc\birSifirUcuzaUc.Data\obj\Debug\birSifirUcuzaUc.Data.pdb
